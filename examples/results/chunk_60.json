@@ -1,0 +1,13 @@
+{
+  "chunk": "nikoti et al. [124] propose a metric that measures both the impact and recency of the retrieved text chunks. KagNet [97] decomposes the retrieved paths into triplets and reranks the paths based on the confidence score measured by the knowledge graph embedding (KGE) techniques. LLM-based methods excel in capturing complex linguistic patterns and semantic nuances, which enhances their ability to rank search results or generate responses more accurately. To avoid introducing noisy information,\nWang et al. [171] and Kim et al. [80] propose to prune the irrelevant graph data by calling LLMs to check.\n7\nGraph-Enhanced Generation\nThe generation stage is another crucial step in GraphRAG, aimed at integrating the retrieved graph data with the query to enhance response quality. In this stage, suitable generation models must be selected based on the downstream tasks. The retrieved graph data is then transformed into formats compatible with the generators. The generator takes both the query and the transformed graph data as inputs to produce the final response. Beyond these fundamental processes, generative enhancement techniques can further improve the output by intensifying the interaction between",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Retrieval Methods",
+      "Knowledge Graphs"
+    ]
+  }
+}

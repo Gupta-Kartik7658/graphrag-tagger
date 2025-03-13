@@ -1,0 +1,12 @@
+{
+  "chunk": "[99] Guangyi Liu, Yongqi Zhang, Yong Li, and Quanming Yao. 2024. Explore then Determine: A GNN-LLM Synergy\nFramework for Reasoning over Knowledge Graph. arXiv:2406.01145 [cs.CL] https://arxiv.org/abs/2406.01145 [100] H Liu and P Singh. 2004. ConceptNet—a practical commonsense reasoning tool-kit. BT technology journal 22, 4 (2004), 211–226.\n[101] Haochen Liu, Song Wang, Yaochen Zhu, Yushun Dong, and Jundong Li. 2024. Knowledge Graph-Enhanced Large\nLanguage Models via Path Selection. In Findings of the Association for Computational Linguistics, ACL 2024, Bangkok,\nThailand and virtual meeting, August 11-16, 2024. 6311–6321.\n[102] Jiawei Liu, Cheng Yang, Zhiyuan Lu, Junze Chen, Yibo Li, Mengmei Zhang, Ting Bai, Yuan Fang, Lichao Sun, Philip S.",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "citation",
+    "is_sufficient": true,
+    "topics": [
+      "Topic 1",
+      "Topic 5"
+    ]
+  }
+}

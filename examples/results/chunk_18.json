@@ -1,0 +1,12 @@
+{
+  "chunk": "111:6\nPeng et al.\ngraph data used in GraphRAG. Then, we provide formal definitions for two types of models that can be used in the retrieval and generation stages: Graph Neural Networks and Language Models.\n3.1\nText-Attributed Graphs\nThe graph data used in Graph RAG can be represented uniformly as Text-Attributed Graphs (TAGs), where nodes and edges possess textual attributes. Formally, a text-attributed graph can be denoted as G = (V, E, A, {x𝑣}𝑣∈V, {e𝑖,𝑗}𝑖,𝑗∈E), where V is the set of nodes, E ⊆V × V is the set of edges, A ∈{0, 1}|V|×|V| is the adjacent matrix. Additionally, {x𝑣}𝑣∈V and {e𝑖,𝑗}𝑖,𝑗∈E are textual attributes of nodes and edges, respectively. One typical kind of TAGs is Knowledge Graphs (KGs),",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Graph Neural Networks",
+      "Knowledge Graphs"
+    ]
+  }
+}

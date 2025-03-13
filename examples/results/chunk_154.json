@@ -1,0 +1,13 @@
+{
+  "chunk": "[113] Shengjie Ma, Chengjin Xu, Xuhui Jiang, Muzhi Li, Huaren Qu, and Jian Guo. 2024. Think-on-Graph 2.0: Deep and\nInterpretable Large Language Model Reasoning with Knowledge Graph-guided Retrieval. arXiv:2407.10805 [cs.CL] https://arxiv.org/abs/2407.10805 [114] Xinbei Ma, Yeyun Gong, Pengcheng He, Hai Zhao, and Nan Duan. 2023. Query Rewriting for Retrieval-Augmented\nLarge Language Models. arXiv:2305.14283 [cs.CL] https://arxiv.org/abs/2305.14283 [115] Haitao Mao, Zhikai Chen, Wenzhuo Tang, Jianan Zhao, Yao Ma, Tong Zhao, Neil Shah, Mikhail Galkin, and Jiliang\nTang. 2024. Position: Graph Foundation Models Are Already Here. In Forty-first International Conference on Machine\nJ. ACM, Vol. 37, No. 4, Article 111. Publication date: September 2024.",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "citation",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Knowledge Graphs",
+      "Retrieval Methods"
+    ]
+  }
+}

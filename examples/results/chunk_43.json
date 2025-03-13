@@ -1,0 +1,13 @@
+{
+  "chunk": "decoupled and independent retrievals, allowing them to be computed in parallel and executed only once. For example,\nLuo et al. [112] and Cheng et al. [20] first instruct LLMs to generate multiple reasoning paths and then use a BFS retriever to sequentially search for subgraphs in the knowledge graphs that match each path. KG-GPT [80] decomposes the original query into several sub-queries, retrieving relevant information for each sub-query in a single retrieval process.\n6.2.2\nIterative Retrieval. In iterative retrieval, multiple retrieval steps are employed, with subsequent searches depending on the results of prior retrievals. These methods aim to deepen the understanding or completeness of the retrieved information over successive iterations. In this\nJ. ACM, Vol. 37, No. 4, Article 111. Publication date: September 2024.",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Retrieval Methods",
+      "Knowledge Graphs",
+      "Natural Language Processing"
+    ]
+  }
+}

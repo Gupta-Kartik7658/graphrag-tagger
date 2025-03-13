@@ -1,0 +1,13 @@
+{
+  "chunk": "et al. [75] construct a dataset named GR-Bench, which includes five domain knowledge graphs spanning academic, E-commerce, literature, healthcare, and legal fields. Furthermore, He et al.\n[55] convert triplet-format and JSON files from ExplaGraphs and SceneGraphs into a standard graph format and selects questions requiring 2-hop reasoning from WebQSP to create the universal graph-format dataset GraphQA for evaluating GraphRAG systems.\n5.1.2\nSelf-Constructed Graph Data. Self-Constructed Graph Data facilitates the customization and integration of proprietary or domain-specific knowledge into the retrieval process. For downstream tasks that do not inherently involve graph data, researchers often propose constructing a graph from multiple sources (e.g., documents, tables, and other databases) and leveraging GraphRAG to enhance task performance. Generally, these self-constructed graphs are closely tied to the specific design of the method, distinguishing them from the open-domain graph data previously mentioned.\nTo model the structural relationships between the documents, Munikoti et al. [124] propose to construct a heterogeneous document graph capturing multiple document-level relations, including co-citation, co-topic, co-venue, etc.",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Knowledge Graphs",
+      "Graph Neural Networks",
+      "Retrieval Methods"
+    ]
+  }
+}

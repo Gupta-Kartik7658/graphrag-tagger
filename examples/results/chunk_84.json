@@ -1,0 +1,13 @@
+{
+  "chunk": "complementary strengths of both components to achieve more robust and effective results in information retrieval and content generation applications.\n8.1\nTraining Strategies of Retriever 8.1.1\nTraining-Free. There are two primary types of Training-Free Retrievers currently in use.\nThe first type consists of non-parametric retrievers. These retrievers rely on pre-defined rules or traditional graph search algorithms rather than specific models [158, 189]. The second type utilizes pre-trained LMs as retrievers. Specifically, one group of works utilizes pre-trained embedding models to encode the queries and perform retrieval directly based on the similarity between the query and graph elements [90]. Another group of works adopts generative language models for training-free retrieval. Candidate graph elements such as entities, triples, paths, or subgraphs are included as part of the prompt input to the LLMs. The LLMs then leverage semantic associations to select appropriate graph elements based on the provided prompt [32, 75, 80, 119, 154, 164, 171].\nThese methods harness the powerful semantic understanding capabilities of LMs to retrieve relevant graph elements without the need for explicit training.\n8.1.2",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Retrieval Methods",
+      "Natural Language Processing",
+      "Knowledge Graphs"
+    ]
+  }
+}

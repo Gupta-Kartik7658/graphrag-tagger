@@ -1,0 +1,13 @@
+{
+  "chunk": "specificity. RAG has gained widespread attention due to its exceptional performance and broad applications, becoming a key focus within the field.\nAlthough RAG has achieved impressive results and has been widely applied across various domains, it faces limitations in real-world scenarios: (1) Neglecting Relationships: In practice, textual content is not isolated but interconnected. Traditional RAG fails to capture significant structured relational knowledge that cannot be represented through semantic similarity alone. For instance, in a citation network where papers are linked by citation relationships, traditional RAG methods focus on finding the relevant papers based on the query but overlook important citation relationships between papers. (2) Redundant Information: RAG often recounts content in the form of textual snippets when concatenated as prompts. This makes context become excessively lengthy, leading to the “lost in the middle” dilemma [104]. (3) Lacking Global Information: RAG can only retrieve a subset of documents and fails to grasp global information comprehensively, and hence struggles with tasks such as Query-Focused Summarization (QFS).\nGraph Retrieval-Augmented Generation (GraphRAG) [32, 58, 119] emerges as an innovative",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Retrieval Methods",
+      "Knowledge Graphs"
+    ]
+  }
+}

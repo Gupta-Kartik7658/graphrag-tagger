@@ -1,0 +1,12 @@
+{
+  "chunk": "Transformers for Language Understanding. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers).\n4171–4186.\n[29] Guanting Dong, Rumei Li, Sirui Wang, Yupeng Zhang, Yunsen Xian, and Weiran Xu. 2023. Bridging the KB-Text\nGap: Leveraging Structured Knowledge-aware Pre-training for KBQA. In Proceedings of the 32nd ACM International\nConference on Information and Knowledge Management, CIKM 2023, Birmingham, United Kingdom, October 21-25, 2023.\n3854–3859.\n[30] Junnan Dong, Qinggang Zhang, Xiao Huang, Keyu Duan, Qiaoyu Tan, and Zhimeng Jiang. 2023. Hierarchy-Aware\nMulti-Hop Question Answering over Knowledge Graphs. In Proceedings of the ACM Web Conference 2023, WWW 2023, Austin, TX, USA, 30 April 2023 - 4 May 2023. ACM, 2519–2527.",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "citation",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Knowledge Graphs"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "chunk": "111:22\nPeng et al.\ngraph data is converted into more fluent and natural language but also enriches its semantic content.\nConversely, DALK [89] utilizes the retrieved graph data to rewrite the query. Cheng et al. [20] first leverage LLMs to generate a reasoning plan and answer queries according to the plan.\nTaunk et al. [158] and Yasunaga et al. [189] aim to enhance GNNs by enabling them to learn graph representations relevant to queries. They achieve this by extracting all nouns from the QA pairs (or the QA pairs themselves) and inserting them as nodes into the retrieved subgraph. Mavromatis and Karypis [118] propose a method where, prior to generation, the representation of the query is decomposed into multiple vectors termed “instructions”, each representing different features of the query. These instructions are used as conditions during message passing when applying\nGNNs to learn from retrieved subgraphs. In addition, there are methods that incorporate additional information beyond graph data. For example, PullNet [151] incorporates documents relevant to entities and MVP-Tuning [63] retrieves other related questions.",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Graph Neural Networks",
+      "Query Retrieval",
+      "Retrieval Methods"
+    ]
+  }
+}

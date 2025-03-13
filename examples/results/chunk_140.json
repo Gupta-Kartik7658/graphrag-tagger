@@ -1,0 +1,11 @@
+{
+  "chunk": "[76] Di Jin, Eileen Pan, Nassim Oufattole, Wei-Hung Weng, Hanyi Fang, and Peter Szolovits. 2020. What Disease does this\nPatient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams. arXiv:2009.13081 [cs.CL] https://arxiv.org/abs/2009.13081 [77] Mandar Joshi, Eunsol Choi, Daniel S. Weld, and Luke Zettlemoyer. 2017. TriviaQA: A Large Scale Distantly Supervised\nChallenge Dataset for Reading Comprehension. In Proceedings of the 55th Annual Meeting of the Association for\nComputational Linguistics, ACL 2017, Vancouver, Canada, July 30 - August 4, Volume 1: Long Papers. 1601–1611.\n[78] Vladimir Karpukhin, Barlas Oguz, Sewon Min, Patrick S. H. Lewis, Ledell Wu, Sergey Edunov, Danqi Chen, and Wen-",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "citation",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing"
+    ]
+  }
+}

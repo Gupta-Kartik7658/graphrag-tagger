@@ -1,0 +1,13 @@
+{
+  "chunk": "scenarios such as intelligence report generation [139], patent phrase similarity detection [133] and software understanding [1]. Ranade and Joshi [139] first construct an Event Plot Graph (EPG) and retrieve the critical aspects of the events to aid the generation of intelligence reports. Peng and Yang [133] create a patent-phrase graph and retrieve the ego network of the given patent phrase to assist the judgment of phrase similarity. Alhanahnah et al. [1] propose a Chatbot to understand properties about dependencies in a given software package, which first automatically constructs the dependency graph and then the user can ask questions about the dependencies in the dependency graph.\n9.3\nBenchmarks and Metrics 9.3.1\nBenchmarks. The benchmarks used to evaluate the performance of the GraphRAG system can be divided into two categories. The first category is the corresponding datasets of downstream tasks. We summarize the benchmarks and papers tested with them according to the classification in Section 9.1, details of which are shown in Table 1. The second category consists of benchmarks specifically designed for the GraphRAG systems. These benchmarks usually cover multiple",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Topic 4",
+      "Topic 1",
+      "Topic 9"
+    ]
+  }
+}

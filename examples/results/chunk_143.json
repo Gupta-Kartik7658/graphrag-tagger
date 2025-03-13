@@ -1,0 +1,12 @@
+{
+  "chunk": "Chang, Andrew M. Dai, Jakob Uszkoreit, Quoc Le, and Slav Petrov. 2019. Natural Questions: a Benchmark for Question\nAnswering Research. Trans. Assoc. Comput. Linguistics 7 (2019), 452–466.\n[85] Yunshi Lan, Gaole He, Jinhao Jiang, Jing Jiang, Wayne Xin Zhao, and Ji-Rong Wen. 2021. A Survey on Complex\nKnowledge Base Question Answering: Methods, Challenges and Solutions. In Proceedings of the Thirtieth International\nJoint Conference on Artificial Intelligence, IJCAI 2021, Virtual Event / Montreal, Canada, 19-27 August 2021. 4483–4491.\n[86] Yunshi Lan, Gaole He, Jinhao Jiang, Jing Jiang, Wayne Xin Zhao, and Ji-Rong Wen. 2023. Complex Knowledge Base\nQuestion Answering: A Survey. IEEE Trans. Knowl. Data Eng. 35, 11 (2023), 11196–11215.\n[87] Yunshi Lan and Jing Jiang. 2020. Query Graph Generation for Answering Multi-hop Complex Questions from",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "citation",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Query Retrieval"
+    ]
+  }
+}

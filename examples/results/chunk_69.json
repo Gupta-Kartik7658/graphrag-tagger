@@ -1,0 +1,12 @@
+{
+  "chunk": "Zhang et al. [199] introduce a module called the GreaseLM Layer, which incorporates both GNN and\nLM layers. At each layer, this module integrates textual and graph representations using a two-layer\nMLP before passing them to the next layer. Similarly, ENGINE [204] proposes G-Ladders, which combine LMs and GNNs through a side structure, enhancing node representations for downstream tasks.\nDiscussion. Hybrid models that harness both the representation capabilities of GNNs for graph data and LMs for text data hold promising applications. However, effectively integrating information from these two modalities remains a significant challenge.\n7.2\nGraph Formats\nWhen using GNNs as generators, the graph data can be directly encoded. However, when utilizing\nLMs as generators, the non-Euclidean nature of graph data poses a challenge, as it cannot be directly combined with textual data for input into the LMs. To address this, graph translators are employed to convert the graph data into a format compatible with LMs. This conversion enhances the generative capabilities of LMs by enabling them to effectively process and utilize structured graph information.",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Topic 1",
+      "Topic 3"
+    ]
+  }
+}

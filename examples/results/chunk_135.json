@@ -1,0 +1,13 @@
+{
+  "chunk": "Event, February 2-9, 2021. 6384–6392.\n[65] Gautier Izacard and Edouard Grave. 2021. Leveraging Passage Retrieval with Generative Models for Open Domain\nQuestion Answering. In Proceedings of the 16th Conference of the European Chapter of the Association for Computational\nLinguistics: Main Volume, EACL 2021, Online, April 19 - 23, 2021. 874–880.\n[66] Omid Jafari, Preeti Maurya, Parth Nagarkar, Khandker Mushfiqul Islam, and Chidambaram Crushev. 2021. A Survey on Locality Sensitive Hashing Algorithms and their Applications. arXiv:2102.08942 [cs.DB] https://arxiv.org/abs/ 2102.08942 [67] Jinhao Jiang, Kun Zhou, Zican Dong, Keming Ye, Xin Zhao, and Ji-Rong Wen. 2023. StructGPT: A General Framework for Large Language Model to Reason over Structured Data. In Proceedings of the 2023 Conference on Empirical Methods",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "citation",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Retrieval Methods",
+      "Conference Papers 2021"
+    ]
+  }
+}

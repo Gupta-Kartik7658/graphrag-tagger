@@ -1,0 +1,13 @@
+{
+  "chunk": "[51] retrieve entities from constructed knowledge graphs.\n6.3.2\nTriplets. Generally, triplets consist of entities and their relationships in the form of subjectpredicate-object tuples, providing a structured representation of relational data within a graph. The structured format of triplets allows for clear and organized data retrieval, making it advantageous in scenarios where understanding relationships and contextual relevance between entities is critical. Yang et al. [185] retrieve triplets containing topic entities as relevant information.\nHuang et al. [63] , Li et al. [90] and Li et al. [95] first convert each triplet of graph data into textual sentences using predefined templates and subsequently adopt a text retriever to extract relevant triplets. However, directly retrieving triplets from graph data may still lack contextual breadth and depth, thus being unable to capture indirect relationships or reasoning chains. To address this challenge, Wang et al. [164] propose to generate the logical chains based on the original question, and retrieve the relevant triplets of each logical chain.\n6.3.3\nPaths. The retrieval of path-granularity data can be seen as capturing sequences of rela-",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Retrieval Methods",
+      "Knowledge Graphs",
+      "Natural Language Processing"
+    ]
+  }
+}

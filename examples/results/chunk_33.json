@@ -1,0 +1,13 @@
+{
+  "chunk": "co-citation, co-topic, co-venue, etc.\nLi et al. [96] and Wang et al. [172] establish relationship between passages according to shared keywords. To capture the relations between entities in documents,\nDelile et al. [26] , Edge et al. [32] , Gutiérrez et al. [51] and Li et al. [89] utilize the named entity recognition tools to extract entities from documents and language models to further extract relations between entities, where the retrieved entities and relations then form a knowledge graph. There are also some mapping methods for downstream tasks that need to be designed based on the characteristics of the task itself. For example, to solve the patent phrase similarity inference task, Peng and Yang [133] convert the patent database into a patent-phrase graph. Connections between patent nodes and phrase nodes are established if the phrases appear in the patents, while connections between patent nodes are based on citation relations. Targeting customer service technical support scenarios, Xu et al. [183] propose to model historical issues into a KG, which transforms the issues into tree representations to maintain the intra-issue relations, and utilize",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Knowledge Graphs",
+      "Retrieval Methods"
+    ]
+  }
+}

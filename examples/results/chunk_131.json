@@ -1,0 +1,12 @@
+{
+  "chunk": "111:34\nPeng et al.\n[55] Xiaoxin He, Yijun Tian, Yifei Sun, Nitesh V. Chawla, Thomas Laurent, Yann LeCun, Xavier Bresson, and Bryan Hooi.\n2024. G-Retriever: Retrieval-Augmented Generation for Textual Graph Understanding and Question Answering.\narXiv:2402.07630 [cs.LG] https://arxiv.org/abs/2402.07630 [56] Michael Himsolt. 1996. GML: Graph Modelling Language. University of Passau (1996).\n[57] Johannes Hoffart, Mohamed Amir Yosef, Ilaria Bordino, Hagen Fürstenau, Manfred Pinkal, Marc Spaniol, Bilyana\nTaneva, Stefan Thater, and Gerhard Weikum. 2011. Robust Disambiguation of Named Entities in Text. In Proceedings of the 2011 Conference on Empirical Methods in Natural Language Processing, EMNLP 2011, 27-31 July 2011, John McIntyre",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "citation",
+    "is_sufficient": true,
+    "topics": [
+      "Topic 2",
+      "Natural Language Processing"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "chunk": "granularity of the subsequent retrieval stage, playing a crucial role in enhancing query efficiency.\nGraph-Guided Retrieval (G-Retrieval). Following graph-based indexing, the graph-guided retrieval phase focuses on extracting pertinent information from the graph database in response to user queries or input. Specifically, given a user query 𝑞which is expressed in natural language, the retrieval stage aims to extract the most relevant elements (e.g., entities, triplets, paths, subgraphs) from knowledge graphs, which can be formulated as\n𝐺∗= G-Retriever(𝑞, G) = arg max\n𝐺⊆R(G) 𝑝𝜃(𝐺|𝑞, G) = arg max\n𝐺⊆R(G)\nSim(𝑞,𝐺), (5) where 𝐺∗is the optimal retrieved graph elements and Sim(·, ·) is a function that measures the semantic similarity between user queries and the graph data. R(·) represents a function to narrow down the search range of subgraphs, considering the efficiency.",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Retrieval Methods",
+      "Knowledge Graphs",
+      "Natural Language Processing"
+    ]
+  }
+}

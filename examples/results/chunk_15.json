@@ -1,0 +1,12 @@
+{
+  "chunk": "reasoning, and generation capabilities, along with their generalization and zero-shot transfer abilities. Although LLMs are primarily designed to process pure text and struggle with nonEuclidean data containing complex structural information, such as graphs [49, 165], numerous studies [17, 35, 74, 92, 102, 116, 130, 131, 173, 204] have been conducted in these fields. These papers primarily integrate LLMs with GNNs to enhance modeling capabilities for graph data, thereby improving performance on downstream tasks such as node classification, edge prediction, graph classification, and others. For example, Zhu et al. [204] propose an efficient fine-tuning method named ENGINE, which combines LLMs and GNNs through a side structure for enhancing graph representation.\nDifferent from these methods, GraphRAG focuses on retrieving relevant graph elements using queries from an external graph-structured database. In this paper, we provide a detailed introduction to the relevant technologies and applications of GraphRAG, which are not included in previous surveys of LLMs on Graphs.\n2.3\nKBQA",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Graph Neural Networks",
+      "Retrieval Methods"
+    ]
+  }
+}

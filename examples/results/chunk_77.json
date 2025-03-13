@@ -1,0 +1,13 @@
+{
+  "chunk": "it using an LM-based encoder and input it into the decoders [29, 37, 193]. Notably, feeding graph representations into LMs is feasible primarily with open-source LMs, not closed-source models like\nGPT-4 [127]. While graph embedding methods avoid handling long text inputs, they face other challenges, such as difficulty in preserving precise information like specific entity names and poor generalization.\n7.3\nGeneration Enhancement\nIn the generation phase, besides converting the retrieved graph data into formats acceptable by the generator and inputting it together with the query to generate the final response, many researchers explore various methods of generation enhancement techniques to improve the quality of output responses. These methods can be classified into three categories based on their application stages: pre-generation enhancement, mid-generation enhancement, and post-generation enhancement.\n7.3.1\nPre-Generation Enhancement. Pre-generation enhancement techniques focus on improving the quality of input data or representations before feeding them into the generator. In fact, there is no clear boundary between Pre-Generation Enhancement and Retrieval. In this survey, we categorize the retrieval stage as the process of retrieving knowledge from the original graph, and",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Retrieval Methods",
+      "Knowledge Graphs"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "chunk": "compelling approach to describe the retrieved graph data using natural language. By translating graph data into descriptive, easily comprehensible language, LMs can bridge the gap between raw data representation and user-friendly information, facilitating more effective interactions with data-driven applications. For example, some researchers [63, 90] propose defining a natural language template for each type of edge in advance and subsequently filling in the endpoints of each edge into the corresponding template based on its type. Ye et al. [190] employ natural language to describe the information of 1-hop and 2-hop neighboring nodes of the central node. Edge et al. [32] utilize LLMs to generate report-like summaries for each detected graph community. Wu et al. [182] and Guo et al. [50] adopt LMs to rewrite the edge table of retrieved subgraphs, generating a natural language description. Fatemi et al. [38] explore different representations of nodes (e.g., Integer encoding, alphabet letters, names, etc.) and edges (e.g., parenthesis, arrows, incident, etc.).\nJin",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Graph Neural Networks",
+      "Information Systems"
+    ]
+  }
+}

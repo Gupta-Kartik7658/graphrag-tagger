@@ -1,0 +1,12 @@
+{
+  "chunk": "granularities, as subgraphs can be composed of multiple paths, and paths can be formed by several triplets. (2) Various granularities such as nodes, triplets, paths, and subgraphs offer distinct advantages in the GraphRAG process. Balancing between retrieval content and efficiency is crucial when selecting the granularity, depending on the specific context of the task. For straightforward queries or when efficiency is paramount, finer granularities such as entities or triplets may be preferred to optimize retrieval speed and relevance. In contrast, complex scenarios often benefit from a hybrid approach that combines multiple granularities. This approach ensures a more comprehensive understanding of the graph structure and relationships, enhancing the depth and accuracy of the generated responses. Thus, GraphRAG’s flexibility in granularity selection allows it to adapt effectively to diverse information retrieval needs across various domains.\n6.4\nRetrieval Enhancement\nTo ensure high retrieval quality, researchers propose techniques to enhance both user queries and the knowledge retrieved. In this paper, we categorize query enhancement into query expansion and query decomposition, and knowledge enhancement into merging and pruning. These strategies",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Retrieval Methods",
+      "Knowledge Graphs"
+    ]
+  }
+}

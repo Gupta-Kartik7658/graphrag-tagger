@@ -1,0 +1,12 @@
+{
+  "chunk": "of the 16th international conference on World Wide Web. 697–706.\n[151] Haitian Sun, Tania Bedrax-Weiss, and William W. Cohen. 2019. PullNet: Open Domain Question Answering with\nIterative Retrieval on Knowledge Bases and Text. In Proceedings of the 2019 Conference on Empirical Methods in Natural\nLanguage Processing and the 9th International Joint Conference on Natural Language Processing, EMNLP-IJCNLP 2019,\nHong Kong, China, November 3-7, 2019. 2380–2390.\n[152] Haitian Sun, Bhuwan Dhingra, Manzil Zaheer, Kathryn Mazaitis, Ruslan Salakhutdinov, and William W. Cohen. 2018.\nOpen Domain Question Answering Using Early Fusion of Knowledge Bases and Text. In Proceedings of the 2018\nConference on Empirical Methods in Natural Language Processing, Brussels, Belgium, October 31 - November 4, 2018.\n4231–4242.",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "citation",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Retrieval Methods"
+    ]
+  }
+}

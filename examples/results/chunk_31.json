@@ -1,0 +1,12 @@
+{
+  "chunk": "Graph Retrieval-Augmented Generation: A Survey 111:9 is a semantic network built from nodes representing words or phrases connected by edges denoting semantic relationships. ATOMIC [64, 142] models the causal relationships between events.\n(2) Domain Knowledge Graphs. As discussed in Section 1, domain-specific knowledge graphs are crucial for enhancing LLMs in addressing domain-specific questions. These KGs offer specialized knowledge in particular fields, aiding models in gaining deeper insights and a more comprehensive understanding of complex professional relationships. In the biomedical field, CMeKG6 encompasses a wide range of data, including diseases, symptoms, treatments, medications, and relationships between medical concepts. CPubMed-KG7 is a medical knowledge database in Chinese, building on the extensive repository of biomedical literature in PubMed. In the movie domain, Wiki-Movies [121] extracts structured information from Wikipedia articles related to films, compiling data about movies, actors, directors, genres, and other relevant details into a structured format. Additionally, Jin et al. [75] construct a dataset named GR-Bench, which includes five domain knowledge graphs",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Knowledge Graphs",
+      "Retrieval Methods"
+    ]
+  }
+}

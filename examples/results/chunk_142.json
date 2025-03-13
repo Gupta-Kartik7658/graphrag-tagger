@@ -1,0 +1,12 @@
+{
+  "chunk": "[82] Jiho Kim, Sungjin Park, Yeonsu Kwon, Yohan Jo, James Thorne, and Edward Choi. 2023. FactKG: Fact Verification via Reasoning on Knowledge Graphs. In Proceedings of the 61st Annual Meeting of the Association for Computational\nLinguistics (Volume 1: Long Papers), ACL 2023, Toronto, Canada, July 9-14, 2023. 16190–16206.\n[83] Thomas N. Kipf and Max Welling. 2017. Semi-Supervised Classification with Graph Convolutional Networks. In 5th\nInternational Conference on Learning Representations, ICLR 2017, Toulon, France, April 24-26, 2017, Conference Track\nProceedings.\n[84] Tom Kwiatkowski, Jennimaria Palomaki, Olivia Redfield, Michael Collins, Ankur P. Parikh, Chris Alberti, Danielle\nEpstein, Illia Polosukhin, Jacob Devlin, Kenton Lee, Kristina Toutanova, Llion Jones, Matthew Kelcey, Ming-Wei",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "citation",
+    "is_sufficient": true,
+    "topics": [
+      "Topic 5",
+      "Topic 6"
+    ]
+  }
+}

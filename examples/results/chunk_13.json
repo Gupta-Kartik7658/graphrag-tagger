@@ -1,0 +1,12 @@
+{
+  "chunk": "Section 8 introduces the training strategies of retrievers and generators. Section 9 summarizes\nGraphRAG’s downstream tasks, corresponding benchmarks, application domains, evaluation metrics, and industrial GraphRAG systems. Section 10 provides an outlook on future directions. Finally,\nSection 11 concludes the content of this survey.\n2\nComparison with Related Techniques and Surveys\nIn this section, we compare Graph Retrieval-Augmented Generation (GraphRAG) with related techniques and corresponding surveys, including RAG, LLMs on graphs, and Knowledge Base\nQuestion Answering (KBQA).\n2.1\nRAG\nRAG combines external knowledge with LLMs for improved task performance, integrating domainspecific information to ensure factuality and credibility. In the past two years, researchers have written many comprehensive surveys about RAG [34, 45, 59, 62, 178, 195, 202]. For example,\nFan et al. [34] and Gao et al. [45] categorize RAG methods from the perspectives of retrieval, generation, and augmentation. Zhao et al. [202] review RAG methods for databases with different",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Retrieval Methods"
+    ]
+  }
+}

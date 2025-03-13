@@ -1,0 +1,12 @@
+{
+  "chunk": "Thirty-Third AAAI Conference on Artificial Intelligence, AAAI 2019, The Thirty-First Innovative Applications of Artificial\nIntelligence Conference, IAAI 2019, The Ninth AAAI Symposium on Educational Advances in Artificial Intelligence, EAAI 2019, Honolulu, Hawaii, USA, January 27 - February 1, 2019. 3027–3035.\n[143] Maarten Sap, Hannah Rashkin, Derek Chen, Ronan LeBras, and Yejin Choi. 2019. SocialIQA: Commonsense Reasoning about Social Interactions. arXiv:1904.09728 [cs.CL] https://arxiv.org/abs/1904.09728 [144] Bhaskarjit Sarmah, Benika Hall, Rohan Rao, Sunil Patel, Stefano Pasquali, and Dhagash Mehta. 2024. HybridRAG:\nIntegrating Knowledge Graphs and Vector Retrieval Augmented Generation for Efficient Information Extraction.\narXiv:2408.04948 [cs.CL] https://arxiv.org/abs/2408.04948",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "citation",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Knowledge Graphs"
+    ]
+  }
+}

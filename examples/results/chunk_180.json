@@ -1,0 +1,12 @@
+{
+  "chunk": "[176] Sondre Wold, Lilja Øvrelid, and Erik Velldal. 2023. Text-To-KG Alignment: Comparing Current Methods on Classification Tasks. arXiv:2306.02871 [cs.CL] https://arxiv.org/abs/2306.02871 [177] Junde Wu, Jiayuan Zhu, and Yunli Qi. 2024. Medical Graph RAG: Towards Safe Medical Large Language Model via\nGraph Retrieval-Augmented Generation. arXiv:2408.04187 [cs.CV] https://arxiv.org/abs/2408.04187 [178] Shangyu Wu, Ying Xiong, Yufei Cui, Haolun Wu, Can Chen, Ye Yuan, Lianming Huang, Xue Liu, Tei-Wei Kuo, Nan\nGuan, and Chun Jason Xue. 2024. Retrieval-Augmented Generation for Natural Language Processing: A Survey.\narXiv:2407.13193 [cs.CL] https://arxiv.org/abs/2407.13193",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "citation",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Retrieval Methods"
+    ]
+  }
+}

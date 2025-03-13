@@ -1,0 +1,12 @@
+{
+  "chunk": "7.1.2\nLMs. LMs possess strong capabilities in text understanding, which also allows them to function as generators. In the context of integrating LMs with graph data, it is necessary to first convert the retrieved graph data into specific graph formats. This conversion process ensures that the structured information is effectively understood and utilized by the LMs. These formats, which will be elaborated on in Section 7.2, are crucial for preserving the relational and hierarchical structure of the graph data, thereby enhancing the model’s ability to interpret complex data types.\nOnce the graph data is formatted, it is then combined with a query and fed into an LM.\nFor encoder-only models, such as BERT [28] and RoBERTa [107], their primary use is in discriminative tasks. Similar to GNNs, these models first encode the input text and then utilize MLPs to map it to the answer space [63, 70, 90]. On the other hand, encoder-decoder and decoder-only models, such as T5 [138], GPT-4 [127], and LLaMA [31], are adept at both discriminative and generative",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Graph Neural Networks"
+    ]
+  }
+}

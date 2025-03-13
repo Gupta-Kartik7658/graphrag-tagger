@@ -1,0 +1,13 @@
+{
+  "chunk": "and Qwen2 [184] have shown great potential in language understanding, demonstrating powerful in-context learning capabilities. Subsequently, research on RAG and GraphRAG shifted towards enhancing information retrieval for language models, addressing increasingly complex tasks and mitigating hallucinations, thereby driving rapid advancements in the field.\nJ. ACM, Vol. 37, No. 4, Article 111. Publication date: September 2024.",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Retrieval Methods",
+      "Training Techniques"
+    ]
+  }
+}

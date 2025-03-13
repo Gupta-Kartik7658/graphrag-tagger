@@ -1,0 +1,12 @@
+{
+  "chunk": "Reasoning over Entity Knowledge. In Proceedings of the Neural Information Processing Systems Track on Datasets and\nBenchmarks 1, NeurIPS Datasets and Benchmarks 2021, December 2021, virtual.\n[127] OpenAI. 2024. GPT-4 Technical Report. arXiv:2303.08774 [cs.CL] https://arxiv.org/abs/2303.08774 [128] Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo Almeida, Carroll Wainwright, Pamela Mishkin, Chong Zhang, Sandhini\nAgarwal, Katarina Slama, Alex Ray, et al. 2022. Training language models to follow instructions with human feedback.\nAdvances in neural information processing systems 35 (2022), 27730–27744.\n[129] Vardaan Pahuja, Boshi Wang, Hugo Latapie, Jayanth Srinivasa, and Yu Su. 2023. A Retrieve-and-Read Framework for Knowledge Graph Link Prediction. In Proceedings of the 32nd ACM International Conference on Information and",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "citation",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Knowledge Graphs"
+    ]
+  }
+}

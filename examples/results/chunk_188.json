@@ -1,0 +1,13 @@
+{
+  "chunk": "[195] Hao Yu, Aoran Gan, Kai Zhang, Shiwei Tong, Qi Liu, and Zhaofeng Liu. 2024. Evaluation of Retrieval-Augmented\nGeneration: A Survey. arXiv:2405.07437 [cs.CL] https://arxiv.org/abs/2405.07437 [196] Jing Zhang, Xiaokang Zhang, Jifan Yu, Jian Tang, Jie Tang, Cuiping Li, and Hong Chen. 2022. Subgraph Retrieval\nEnhanced Model for Multi-hop Knowledge Base Question Answering. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), ACL 2022, Dublin, Ireland, May 22-27, 2022.\n5773–5784.\n[197] Mengmei Zhang, Mingwei Sun, Peng Wang, Shen Fan, Yanhu Mo, Xiaoxiao Xu, Hong Liu, Cheng Yang, and Chuan\nShi. 2024. GraphTranslator: Aligning Graph Model to Large Language Model for Open-ended Tasks. In Proceedings of",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "citation",
+    "is_sufficient": true,
+    "topics": [
+      "Conference Papers 2024",
+      "Retrieval Methods",
+      "Natural Language Processing"
+    ]
+  }
+}

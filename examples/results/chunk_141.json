@@ -1,0 +1,12 @@
+{
+  "chunk": "tau Yih. 2020. Dense Passage Retrieval for Open-Domain Question Answering. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing, EMNLP 2020, Online, November 16-20, 2020. 6769–6781.\n[79] Sohum Kashyap et al. 2024. Knowledge Graph Assisted Large Language Models. (2024).\n[80] Jiho Kim, Yeonsu Kwon, Yohan Jo, and Edward Choi. 2023. KG-GPT: A General Framework for Reasoning on\nKnowledge Graphs Using Large Language Models. In Findings of the Association for Computational Linguistics: EMNLP 2023, Singapore, December 6-10, 2023. 9410–9421.\n[81] Jaewoong Kim and Moohong Min. 2024. From RAG to QA-RAG: Integrating Generative AI for Pharmaceutical\nRegulatory Compliance Process. arXiv:2402.01717 [cs.CL] https://arxiv.org/abs/2402.01717",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "citation",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Knowledge Graphs"
+    ]
+  }
+}

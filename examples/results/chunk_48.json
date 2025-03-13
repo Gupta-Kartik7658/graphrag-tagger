@@ -1,0 +1,12 @@
+{
+  "chunk": "111:14\nPeng et al.\ninto nodes, triplets, paths, and subgraphs. Each retrieval granularity has its own advantages, making it suitable for different practical scenarios. We will introduce the details of these granularities in the following sections.\n6.3.1\nNodes. Nodes allow for precise retrieval focused on individual elements within the graph, which is ideal for targeted queries and specific information extraction. In general, for knowledge graphs, nodes refer to entities. For other types of text attribute graphs, nodes may include textual information that describes the node’s attributes. By retrieving nodes within the graph, GraphRAG systems could provide detailed insights into their attributes, relationships, and contextual information. For example,\nMunikoti et al. [124] , Li et al. [96] and Wang et al. [172] construct document graphs and retrieves relevant passage nodes.\nLiu et al. [99] , Sun et al. [151] and Gutiérrez et al.\n[51] retrieve entities from constructed knowledge graphs.\n6.3.2",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Retrieval Methods",
+      "Knowledge Graphs"
+    ]
+  }
+}

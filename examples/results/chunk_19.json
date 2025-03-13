@@ -1,0 +1,12 @@
+{
+  "chunk": "attributes of nodes and edges, respectively. One typical kind of TAGs is Knowledge Graphs (KGs), where nodes are entities, edges are relations among entities, and text attributes are the names of entities and relations.\n3.2\nGraph Neural Networks\nGraph Neural Networks (GNNs) are a kind of deep learning framework to model the graph data.\nClassical GNNs, e.g., GCN [83], GAT [162], GraphSAGE [52], adopt a message-passing manner to obtain node representations. Formally, each node representation h(𝑙−1) 𝑖 in the 𝑙-th layer is updated by aggregating the information from neighboring nodes and edges: h(𝑙) 𝑖 = UPD(h(𝑙−1) 𝑖 , AGG𝑗∈N(𝑖)MSG(h(𝑙−1) 𝑖 , h(𝑙−1) 𝑗 , e(𝑙−1) 𝑖,𝑗 )), (1)",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Topic 1",
+      "Topic 5"
+    ]
+  }
+}

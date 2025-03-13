@@ -1,0 +1,13 @@
+{
+  "chunk": "Transformers: A Survey. arXiv:2407.09777 [cs.LG] https://arxiv.org/abs/2407.09777 [148] Yiheng Shu, Zhiwei Yu, Yuhan Li, Börje F. Karlsson, Tingting Ma, Yuzhong Qu, and Chin-Yew Lin. 2022. TIARA:\nMulti-grained Retrieval for Robust Question Answering over Large Knowledge Bases. arXiv:2210.12925 [cs.CL] https://arxiv.org/abs/2210.12925 [149] Saurabh Srivastava, Milind D Jain, Harshita Jain, Kritik Jaroli, VJ Mayank Patel, and L Khan. 2020. IOT monitoring bin for smart cities. In 3rd Smart Cities Symposium (SCS 2020), Vol. 2020. IET, 533–536.\n[150] Fabian M Suchanek, Gjergji Kasneci, and Gerhard Weikum. 2007. Yago: a core of semantic knowledge. In Proceedings",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "citation",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Retrieval Methods",
+      "Knowledge Graphs"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "chunk": "decision process, subsequently merging identical entities from different paths to induce a final subgraph.\n6.3.5\nHybrid Granularties. Considering the advantages and disadvantages of various retrieval granularities mentioned above, some researchers propose using hybrid granularities, that is, retrieving relevant information of multiple granularities from graph data. This type of granularity enhances the system’s ability to capture both detailed relationships and broader contextual understanding, thus reducing noise while improving the relevance of the retrieved data. Various previous works propose to utilize LLM agents to retrieve complex hybrid information.\nJin et al. [75] , Jiang et al.\n[67] , Jiang et al. [69] , Wang et al. [170] and Sun et al. [155] propose to adopt LLM-based agents for adaptively selecting nodes, triplets, paths, and subgraphs.\n6.3.6\nDiscussion. (1) In real applications, there are no clear boundaries between these retrieval granularities, as subgraphs can be composed of multiple paths, and paths can be formed by several",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Retrieval Methods",
+      "Knowledge Graphs",
+      "Natural Language Processing"
+    ]
+  }
+}

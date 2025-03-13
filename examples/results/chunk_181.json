@@ -1,0 +1,12 @@
+{
+  "chunk": "[179] Shirley Wu, Shiyu Zhao, Michihiro Yasunaga, Kexin Huang, Kaidi Cao, Qian Huang, Vassilis N. Ioannidis, Karthik\nSubbian, James Zou, and Jure Leskovec. 2024. STaRK: Benchmarking LLM Retrieval on Textual and Relational\nKnowledge Bases. arXiv:2404.13207 [cs.IR] https://arxiv.org/abs/2404.13207 [180] Taiqiang Wu, Xingyu Bai, Weigang Guo, Weijie Liu, Siheng Li, and Yujiu Yang. 2023. Modeling Fine-grained\nInformation via Knowledge-aware Hierarchical Graph for Zero-shot Entity Retrieval. In Proceedings of the Sixteenth\nACM International Conference on Web Search and Data Mining, WSDM 2023, Singapore, 27 February 2023 - 3 March 2023. 1021–1029.\n[181] Yuxia Wu, Yuan Fang, and Lizi Liao. 2024.\nRetrieval Augmented Generation for Dynamic Graph Modeling.",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "citation",
+    "is_sufficient": true,
+    "topics": [
+      "Conference Papers 2024",
+      "Retrieval Methods"
+    ]
+  }
+}

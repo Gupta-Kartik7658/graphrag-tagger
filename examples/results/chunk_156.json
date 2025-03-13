@@ -1,0 +1,13 @@
+{
+  "chunk": "December 7-11, 2022. 2447–2458.\n[119] Costas Mavromatis and George Karypis. 2024. GNN-RAG: Graph Neural Retrieval for Large Language Model\nReasoning. arXiv:2405.20139 [cs.CL] https://arxiv.org/abs/2405.20139 [120] Todor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal. 2018. Can a Suit of Armor Conduct Electricity?\nA New Dataset for Open Book Question Answering. In Proceedings of the 2018 Conference on Empirical Methods in\nNatural Language Processing, Brussels, Belgium, October 31 - November 4, 2018. 2381–2391.\n[121] Alexander H. Miller, Adam Fisch, Jesse Dodge, Amir-Hossein Karimi, Antoine Bordes, and Jason Weston. 2016.\nKey-Value Memory Networks for Directly Reading Documents. In Proceedings of the 2016 Conference on Empirical",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "citation",
+    "is_sufficient": true,
+    "topics": [
+      "Topic 2",
+      "Topic 3",
+      "Topic 4"
+    ]
+  }
+}

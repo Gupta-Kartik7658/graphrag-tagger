@@ -1,0 +1,12 @@
+{
+  "chunk": "Question-Answer Pairs with Freebase. In Proceedings of the 2019 Conference of the North American Chapter of the\nAssociation for Computational Linguistics: Human Language Technologies, NAACL-HLT 2019, Minneapolis, MN, USA,\nJune 2-7, 2019, Volume 1 (Long and Short Papers). 318–323.\n[73] Xinke Jiang, Ruizhe Zhang, Yongxin Xu, Rihong Qiu, Yue Fang, Zhiyuan Wang, Jinyi Tang, Hongxin Ding, Xu Chu,\nJunfeng Zhao, and Yasha Wang. 2024. HyKGE: A Hypothesis Knowledge Graph Enhanced Framework for Accurate\nJ. ACM, Vol. 37, No. 4, Article 111. Publication date: September 2024.",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "citation",
+    "is_sufficient": true,
+    "topics": [
+      "Conference Papers 2024",
+      "Knowledge Graphs"
+    ]
+  }
+}

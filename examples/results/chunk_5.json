@@ -1,0 +1,12 @@
+{
+  "chunk": "111:2\nPeng et al.\nACM Reference Format:\nBoci Peng, Yun Zhu, Yongchao Liu, Xiaohe Bo, Haizhou Shi, Chuntao Hong, Yan Zhang, and Siliang Tang.\n2024. Graph Retrieval-Augmented Generation: A Survey. J. ACM 37, 4, Article 111 (September 2024), 41 pages.\nhttps://doi.org/XXXXXXX.XXXXXXX 1\nIntroduction\nThe development of Large Language Models like GPT-4 [127], Qwen2 [184], and LLaMA [31] has sparked a revolution in the field of artificial intelligence, fundamentally altering the landscape of natural language processing. These models, built on Transformer [161] architectures and trained on diverse and extensive datasets, have demonstrated unprecedented capabilities in understanding, interpreting, and generating human language. The impact of these advancements is profound, stretching across various sectors including healthcare [103, 166, 203], finance [93, 125], and education [46, 169], where they facilitate more nuanced and efficient interactions between humans and machines.",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Retrieval Methods"
+    ]
+  }
+}

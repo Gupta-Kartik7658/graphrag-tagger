@@ -1,0 +1,13 @@
+{
+  "chunk": "all shortest paths between query entities and answer entities pairwise.\n6.2.4\nDiscussion. In GraphRAG, once retrieval typically exhibits lower complexity and shorter response times, making it suitable for scenarios requiring real-time responsiveness. In contrast, iterative retrieval often involves higher time complexity, especially when employing LLMs as retrievers, potentially leading to longer processing times. However, this approach can yield higher retrieval accuracy by iteratively refining retrieved information and generating responses. Therefore, the choice of retrieval paradigm should balance accuracy and time complexity based on specific use cases and requirements.\n6.3\nRetrieval Granularity\nAccording to different task scenarios and indexing types, researchers design distinct retrieval granularities (i.e., the form of related knowledge retrieved from graph data), which can be divided\nJ. ACM, Vol. 37, No. 4, Article 111. Publication date: September 2024.",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Retrieval Methods",
+      "Knowledge Graphs",
+      "Query Retrieval"
+    ]
+  }
+}

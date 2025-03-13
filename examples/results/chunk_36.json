@@ -1,0 +1,13 @@
+{
+  "chunk": "embeddings, thereby better preserving structural information.\n5.2.4\nHybrid Indexing. Each of the above three indexing methods offers distinct advantages: graph indexing facilitates easy access to structural information, text indexing simplifies retrieval of textual content, and vector indexing enables quick and efficient searches. Therefore, in practical applications, a hybrid approach combining these indexing methods is often preferred over relying solely on one. For instance, HybridRAG [144] retrieves both vector and graph data simultaneously to enhance the content retrieved. While EWEK-QA [24] uses both text and knowledge graphs.\n6\nGraph-Guided Retrieval\nIn GraphRAG, the retrieval process is crucial for ensuring the quality and relevance of generated outputs by extracting pertinent and high-quality graph data from external graph databases. However, retrieving graph data presents two significant challenges: (1) Explosive Candidate Subgraphs: As the graph size increases, the number of candidate subgraphs grows exponentially, requiring heuristic search algorithms to efficiently explore and retrieve relevant subgraphs. (2) Insufficient Similarity\nMeasurement: Accurately measuring similarity between textual queries and graph data necessitates",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Retrieval Methods",
+      "Knowledge Graphs",
+      "Graph-Guided Retrieval"
+    ]
+  }
+}

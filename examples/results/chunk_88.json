@@ -1,0 +1,13 @@
+{
+  "chunk": "into the LLM alongside the query. The LLMs then generate responses based on the task description provided in the prompt, heavily relying on their inherent ability to understand both the query and the graph data.\n8.2.2\nTraining-Based. Training the generator can directly receive supervised signals from downstream tasks. For generative LLMs, fine-tuning can be achieved using supervised fine-tuning (SFT), where task descriptions, queries, and graph data are inputted, and the output is compared against the ground truth for the downstream task [55, 58, 112]. On the other hand, for GNNs or discriminative models functioning as generators, specialized loss functions tailored to the downstream tasks are employed to train the models effectively [68, 90, 158, 189, 199].\n8.3\nJoint Training\nJointly training retrievers and generators simultaneously enhances performance on downstream tasks by leveraging their complementary strengths. Some approaches unify retrievers and generators into a single model, typically LLMs, and train them with both retrieval and generation objectives simultaneously [112]. This method capitalizes on the cohesive capabilities of a unified architecture,",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Topic 6",
+      "Topic 7",
+      "Topic 5"
+    ]
+  }
+}

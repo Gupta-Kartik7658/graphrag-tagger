@@ -1,0 +1,13 @@
+{
+  "chunk": "Language Agent for Question Answering over Knowledge Graphs. arXiv:2406.07080 [cs.CL] https://arxiv.org/abs/ 2406.07080 [37] Jinyuan Fang, Zaiqiao Meng, and Craig MacDonald. 2024. REANO: Optimising Retrieval-Augmented Reader Models through Knowledge Graph Generation. In Proceedings of the 62nd Annual Meeting of the Association for Computational\nLinguistics (Volume 1: Long Papers), ACL 2024, Bangkok, Thailand, August 11-16, 2024. 2094–2112.\n[38] Bahare Fatemi, Jonathan Halcrow, and Bryan Perozzi. 2023. Talk like a Graph: Encoding Graphs for Large Language\nModels. arXiv:2310.04560 [cs.LG] https://arxiv.org/abs/2310.04560 [39] Chao Feng, Xinyu Zhang, and Zichu Fei. 2023. Knowledge Solver: Teaching LLMs to Search for Domain Knowledge",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Knowledge Graphs",
+      "Retrieval Methods"
+    ]
+  }
+}

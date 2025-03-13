@@ -1,0 +1,13 @@
+{
+  "chunk": "based on the retrieved information.\n6.2.3\nMulti-Stage Retrieval. Multi-stage retrieval divides the retrieval process linearly into multiple stages, with additional steps such as retrieval enhancement, and even generation processes occurring between these stages. In multi-stage retrieval, different stages may employ various types of retrievers, which enables the system to incorporate various retrieval techniques tailored to different aspects of the query. For example, Wang et al. [171] first utilize a non-parametric retriever to extract 𝑛-hop paths of entities in the query’s reasoning chain, then after a pruning stage, it further retrieves the one-hop neighbors of the entities in the pruned subgraph. OpenCSR [53] divides the retrieval process into two stages. In the first stage, it retrieves all 1-hop neighbors of the topic entity. In the second stage, it compares the similarity between these neighbor nodes and other nodes, selecting the top-𝑘nodes with the highest similarity for retrieval. GNN-RAG [119] first employs GNNs to retrieve the top-𝑘nodes most likely to be the answer. Subsequently, it retrieves",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Topic 4",
+      "Topic 5",
+      "Topic 1"
+    ]
+  }
+}

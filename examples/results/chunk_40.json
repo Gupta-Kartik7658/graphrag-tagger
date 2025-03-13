@@ -1,0 +1,12 @@
+{
+  "chunk": "111:12\nPeng et al.\n6.1.3\nGNN-based Retriever. GNNs are adept at understanding and leveraging complex graph structures. GNN-based retrievers typically encode graph data and subsequently score different retrieval granularities based on their similarity to the query. For example, GNN-RAG [119] first encodes the graph, assigns a score to each entity, and retrieves entities relevant to the query based on a threshold. EtD [99] iterates multiple times to retrieve relevant paths. During each iteration, it first uses LLaMA2 [160] to select edges connecting the current node, then employs GNNs to obtain embeddings of the new layer of nodes for the next round of LLM selection.\n6.1.4\nDiscussion. During the retrieval process, non-parametric retrievers exhibit good retrieval efficiency, but they may suffer from inaccurate retrieval due to a lack of training on downstream tasks. Meanwhile, although LM-based retrievers and GNN-based retrievers offer higher retrieval accuracy, they require significant computational overhead. Considering this complementarity, many methods propose hybrid retrieval approaches to improve both retrieval efficiency and accuracy.",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Graph Neural Networks",
+      "Retrieval Methods"
+    ]
+  }
+}

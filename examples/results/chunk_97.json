@@ -1,0 +1,12 @@
+{
+  "chunk": "Graph Retrieval-Augmented Generation: A Survey 111:27 each disease is associated with specific symptoms, and every medication contains certain active ingredients that target and treat particular diseases. Some researchers [26, 89, 177] construct KGs for specific task scenarios, while others [73, 175, 185] utilize open-source knowledge graphs such as CMeKG and CPubMed-KG as retrieval sources. Existing methods generally begin with nonparametric retrievers for initial search, followed by designing methods to filter retrieved content through re-ranking [26, 73, 89, 175, 185]. Additionally, some approaches propose rewriting model inputs using retrieved information to enhance generation effectiveness [89].\n9.2.3\nAcademic. In the academic research domain, each paper is authored by one or more researchers and is associated with a field of study. Authors are affiliated with institutions, and there exist relationships among authors, such as collaboration or shared institutional affiliations. These elements can be structured into a graph format. Utilizing GraphRAG on this graph can facilitate academic exploration, including predicting potential collaborators for an author, identifying trends",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Knowledge Graphs",
+      "Retrieval Methods"
+    ]
+  }
+}

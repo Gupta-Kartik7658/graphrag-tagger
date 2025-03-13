@@ -1,0 +1,13 @@
+{
+  "chunk": "Fig. 2. The overview of the GraphRAG framework for question answering task. In this survey, we divide\nGraphRAG into three stages: G-Indexing, G-Retrieval, and G-Generation. We categorize the retrieval sources into open-source knowledge graphs and self-constructed graph data. Various enhancing techniques like query enhancement and knowledge enhancement may be adopted to boost the relevance of the results. Unlike\nRAG, which uses retrieved text directly for generation, GraphRAG requires converting the retrieved graph information into patterns acceptable to generators to enhance the task performance.\nthe progress and prospects of this field. Furthermore, we compile an inventory of existing industry GraphRAG systems, providing insights into the translation of academic research into real-world industry solutions.\nOrganization.\nThe rest of the survey is organized as follows: Section 2 compares related techniques, while Section 3 outlines the general process of GraphRAG. Sections 5 to 7 categorize the techniques associated with GraphRAG’s three stages: G-Indexing, G-Retrieval, and G-Generation.\nSection 8 introduces the training strategies of retrievers and generators. Section 9 summarizes",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Retrieval Methods",
+      "Knowledge Graphs"
+    ]
+  }
+}

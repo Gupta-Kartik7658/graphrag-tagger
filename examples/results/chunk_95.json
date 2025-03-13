@@ -1,0 +1,13 @@
+{
+  "chunk": "application scenarios for its outstanding ability to integrate structured knowledge graphs with natural language processing, which will be introduced below.\n9.2.1\nE-Commerce. The primary goal in the E-commerce area involves improving customer shopping experiences and increasing sales through personalized recommendations and intelligent customer services. In this area, historical interactions between users and products can naturally form a graph, which implicitly encapsulates users’ behavioral patterns and preference information.\nHowever, due to the increasing number of E-commerce platforms and the growing volume of user interaction data, using GraphRAG technology to extract key subgraphs is crucial. Wang et al.\n[168] ensemble multiple retrievers under different types or with different parameters to extract relevant subgraphs, which are then encoded for temporal user action prediction. To improve the model performance of customer service question answering systems, Xu et al. [183] construct a past-issue graph with intra-issue and inter-issue relations. For each given query, subgraphs of similar past issues are retrieved to enhance the system’s response quality.\n9.2.2\nBiomedical. Recently, GraphRAG techniques are increasingly applied in biomedical ques-",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Knowledge Graphs",
+      "Retrieval Methods"
+    ]
+  }
+}

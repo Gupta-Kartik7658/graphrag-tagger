@@ -1,0 +1,12 @@
+{
+  "chunk": "particularly effective for discriminative tasks. GNNs can directly encode graph data, capturing complex relationships and node features inherent in the graph structure. This encoding is then processed through a Multi-Layer Perceptron (MLP) to generate predictive outcomes. These approaches\nJ. ACM, Vol. 37, No. 4, Article 111. Publication date: September 2024.",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Topic 1",
+      "Topic 2"
+    ]
+  }
+}

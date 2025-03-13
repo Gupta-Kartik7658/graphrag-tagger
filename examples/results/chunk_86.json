@@ -1,0 +1,13 @@
+{
+  "chunk": "and entities in the answers, using them as training data for the retriever. In addition, Zhang et al.\n[196] also employ a relationship extraction dataset for distant supervision in unsupervised settings.\nThere is another category of methods that utilize implicit intermediate supervision signals to train\nRetrievers. For instance, NSM [54] employs a bidirectional search strategy, where two retrievers start searching from the head entity and tail entity, respectively. The supervised objective is to ensure that the paths searched by the two retrievers converge as closely as possible. KnowGPT [198] and\nMINERVA [23] treat the selection of adjacent nodes to build paths or subgraphs as a Markov process.\nJ. ACM, Vol. 37, No. 4, Article 111. Publication date: September 2024.",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Retrieval Methods",
+      "Knowledge Graphs",
+      "Training Techniques"
+    ]
+  }
+}

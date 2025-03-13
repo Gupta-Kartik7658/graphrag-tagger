@@ -1,0 +1,12 @@
+{
+  "chunk": "Encyclopedic knowledge graphs are a typical type of general knowledge graph, which contains large-scale real-world knowledge collected from human experts and encyclopedias. For example,\nWikidata1 [163] is a free and open knowledge base that stores structured data of its Wikimedia sister projects like Wikipedia, Wikivoyage, Wiktionary, and others. Freebase2 [10] is an extensive, collaboratively edited knowledge base that compiles data from various sources, including individual contributions and structured data from databases like Wikipedia. DBpedia3 [4] represents information about millions of entities, including people, places, and things, by leveraging the infoboxes and categories present in Wikipedia articles. YAGO4 [150] collects knowledge from Wikipedia,\nWordNet, and GeoNames.\nCommonsense knowledge graphs are another type of general knowledge graph. They include abstract commonsense knowledge, such as semantic associations between concepts and causal relationships between events. Typical Commonsense Knowledge Graphs include: ConceptNet5 [100] 1https://www.wikidata.org/ 2http://www.freebase.be/ 3https://www.dbpedia.org/",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Knowledge Graphs",
+      "Semantic Web"
+    ]
+  }
+}

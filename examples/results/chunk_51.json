@@ -1,0 +1,13 @@
+{
+  "chunk": "reasoning paths that help answer the question.\nLuo et al. [112] , Wu et al. [182] and Guo et al.\n[50] first utilizes the model to generate faithful reasoning plans and then retrieves relevant paths based on these plans. GNN-RAG [119] first identifies the entities in the question. Subsequently, all paths between entities that satisfy a certain length relationship are extracted.\n6.3.4\nSubgraphs. Retrieving subgraphs offers significant advantages due to its ability to capture comprehensive relational contexts within a graph. This granularity enables GraphRAG to extract and analyze complex patterns, sequences, and dependencies embedded within larger structures, facilitating deeper insights and a more nuanced understanding of semantic connections.\nTo ensure both information completeness and retrieval efficiency, some methods propose an initial rule-based approach to retrieve candidate subgraphs, which are subsequently refined or processed further. Peng and Yang [133] retrieve the ego graph of the patent phrase from the self-constructed patent-phrase graph.\nYasunaga et al. [189] , Feng et al. [40] and Taunk et al.",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Retrieval Methods",
+      "Graph Neural Networks",
+      "Knowledge Graphs"
+    ]
+  }
+}

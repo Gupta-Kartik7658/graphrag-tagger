@@ -1,0 +1,12 @@
+{
+  "chunk": "[43], [110], [70], [94], [54], [21], [24]\nGrailQA [47] [154], [69], [148], [24]\nQALD10-en [134] [154], [113], [94], [155]\nSimpleQuestions [13] [154], [5], [12], [24]\nCMCQA8 [171]\nMetaQA [200] [112], [182], [50], [80], [164], [118], [151], [145], [67], [99], [54], [70], [21], [101]\nNatural Question [84] [60], [7], [24]\nTriviaQA [77] [60], [70]\nHotpotQA [187] [60], [51], [113], [7], [24]\nMintaka [146] [5], [94], [6], [7]\nFreebaseQA [72] [193], [110]\nCSQA\nCSQA [157]",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "list",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Knowledge Graphs"
+    ]
+  }
+}

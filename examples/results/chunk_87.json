@@ -1,0 +1,13 @@
+{
+  "chunk": "111:24\nPeng et al.\nThey design the reward function around the inclusion of the answer in the retrieved information and adopt reinforcement learning methods e.g. policy gradient to optimize the retriever.\nSome methods argue that distant supervision signals or implicit intermediate supervision signals may contain considerable noise, making it challenging to train effective retrievers. Therefore, they consider employing self-supervised methods for pre-training retrievers. SKP [29] pre-trains the\nDPR (Dense Passage Retrieval) model [78]. Initially, it conducts random sampling on subgraphs and transforms the sampled subgraphs into passages. Subsequently, it randomly masks passages, trains the model using a Masked Language Model (MLM), and employs contrastive learning by treating the masked passages and original passages as positive pairs for comparison.\n8.2\nTraining of Generator 8.2.1\nTraining-Free. Training-Free Generators primarily cater to closed-source LLMs or scenarios where avoiding high training costs is essential. In these methods, the retrieved graph data is fed into the LLM alongside the query. The LLMs then generate responses based on the task description",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Retrieval Methods",
+      "Training Techniques",
+      "Natural Language Processing"
+    ]
+  }
+}

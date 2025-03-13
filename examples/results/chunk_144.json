@@ -1,0 +1,12 @@
+{
+  "chunk": "Knowledge Bases. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, ACL 2020, Online, July 5-10, 2020. 969–974.\n[88] Brian Lester, Rami Al-Rfou, and Noah Constant. 2021. The Power of Scale for Parameter-Efficient Prompt Tuning. In\nProceedings of the 2021 Conference on Empirical Methods in Natural Language Processing, EMNLP 2021, Virtual Event /\nPunta Cana, Dominican Republic, 7-11 November, 2021. 3045–3059.\n[89] Dawei Li, Shu Yang, Zhen Tan, Jae Young Baik, Sukwon Yun, Joseph Lee, Aaron Chacko, Bojian Hou, Duy Duong-Tran,\nYing Ding, Huan Liu, Li Shen, and Tianlong Chen. 2024. DALK: Dynamic Co-Augmentation of LLMs and KG to answer\nAlzheimer’s Disease Questions with Scientific Literature. arXiv:2405.04819 [cs.CL] https://arxiv.org/abs/2405.04819",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "citation",
+    "is_sufficient": true,
+    "topics": [
+      "Conference Papers 2024",
+      "Natural Language Processing"
+    ]
+  }
+}

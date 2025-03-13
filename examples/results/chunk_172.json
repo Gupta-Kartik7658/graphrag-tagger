@@ -1,0 +1,12 @@
+{
+  "chunk": "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics:\nHuman Language Technologies, NAACL-HLT 2018, New Orleans, Louisiana, USA, June 1-6, 2018, Volume 1 (Long Papers).\n641–651.\n[157] Alon Talmor, Jonathan Herzig, Nicholas Lourie, and Jonathan Berant. 2019. CommonsenseQA: A Question Answering\nChallenge Targeting Commonsense Knowledge. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, NAACL-HLT 2019, Minneapolis, MN,\nUSA, June 2-7, 2019, Volume 1 (Long and Short Papers). 4149–4158.\n[158] Dhaval Taunk, Lakshya Khanna, Siri Venkata Pavan Kumar Kandru, Vasudeva Varma, Charu Sharma, and Makarand\nTapaswi. 2023. GrapeQA: GRaph Augmentation and Pruning to Enhance Question-Answering. In Companion",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "citation",
+    "is_sufficient": true,
+    "topics": [
+      "Conference Papers 2019",
+      "Natural Language Processing"
+    ]
+  }
+}

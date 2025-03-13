@@ -1,0 +1,12 @@
+{
+  "chunk": "Retrieval-Augmented Generation for AI-Generated Content: A Survey.\narXiv:2402.19473 [cs.CV] https://arxiv.org/abs/2402.19473 [203] Yanxin Zheng, Wensheng Gan, Zefeng Chen, Zhenlian Qi, Qian Liang, and Philip S. Yu. 2024. Large Language Models for Medicine: A Survey. arXiv:2405.13055 [cs.CL] https://arxiv.org/abs/2405.13055 [204] Yun Zhu, Yaoke Wang, Haizhou Shi, and Siliang Tang. 2024. Efficient Tuning and Inference for Large Language\nModels on Textual Graphs. arXiv:2401.15569 [cs.CL] https://arxiv.org/abs/2401.15569\nJ. ACM, Vol. 37, No. 4, Article 111. Publication date: September 2024.",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Conference Papers 2024",
+      "Natural Language Processing"
+    ]
+  }
+}

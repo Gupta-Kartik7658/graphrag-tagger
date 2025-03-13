@@ -1,0 +1,12 @@
+{
+  "chunk": "from Knowledge Graphs. arXiv:2309.03118 [cs.CL] https://arxiv.org/abs/2309.03118 [40] Yanlin Feng, Xinyue Chen, Bill Yuchen Lin, Peifeng Wang, Jun Yan, and Xiang Ren. 2020. Scalable Multi-Hop Relational\nReasoning for Knowledge-Aware Question Answering. In Proceedings of the 2020 Conference on Empirical Methods in\nNatural Language Processing, EMNLP 2020, Online, November 16-20, 2020. 1295–1309.\n[41] Bin Fu, Yunqi Qiu, Chengguang Tang, Yang Li, Haiyang Yu, and Jian Sun. 2020. A Survey on Complex Question\nAnswering over Knowledge Base: Recent Advances and Challenges. arXiv:2007.13069 [cs.CL] https://arxiv.org/abs/ 2007.13069 [42] Mikhail Galkin, Xinyu Yuan, Hesham Mostafa, Jian Tang, and Zhaocheng Zhu. 2023. Towards Foundation Models for",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "citation",
+    "is_sufficient": true,
+    "topics": [
+      "Knowledge Graphs",
+      "Natural Language Processing"
+    ]
+  }
+}

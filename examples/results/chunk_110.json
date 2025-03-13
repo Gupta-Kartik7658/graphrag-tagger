@@ -1,0 +1,13 @@
+{
+  "chunk": "Graph Retrieval-Augmented Generation: A Survey 111:31 application scenarios. GraphRAG significantly enhances the relevance, accuracy, and comprehensiveness of information retrieval by leveraging pivotal relational knowledge derived from graph datasets, thereby addressing critical limitations associated with traditional Retrieval-Augmented\nGeneration approaches. Furthermore, as GraphRAG represents a relatively nascent field of study, we delineate the benchmarks, analyze prevailing challenges, and illuminate prospective future research directions within this domain.\nAcknowledgments\nThis work is supported by Ant Group through Ant Research Intern Program.\nReferences [1] Mohannad Alhanahnah, Yazan Boshmaf, and Benoit Baudry. 2024. DepsRAG: Towards Managing Software Dependencies using Large Language Models. arXiv:2405.20455 [cs.SE] https://arxiv.org/abs/2405.20455 [2] Zhiyu An, Xianzhong Ding, Yen-Chun Fu, Cheng-Chung Chu, Yan Li, and Wan Du. 2024. Golden-Retriever: High-",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Retrieval Methods",
+      "Knowledge Graphs"
+    ]
+  }
+}

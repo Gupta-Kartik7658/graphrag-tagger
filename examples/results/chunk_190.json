@@ -1,0 +1,13 @@
+{
+  "chunk": "Question Answering With Knowledge Graph. In Proceedings of the Thirty-Second AAAI Conference on Artificial\nIntelligence, (AAAI-18), the 30th innovative Applications of Artificial Intelligence (IAAI-18), and the 8th AAAI Symposium on Educational Advances in Artificial Intelligence (EAAI-18), New Orleans, Louisiana, USA, February 2-7, 2018. 6069–6076.\n[201] Jianan Zhao, Le Zhuo, Yikang Shen, Meng Qu, Kai Liu, Michael Bronstein, Zhaocheng Zhu, and Jian Tang. 2023.\nGraphText: Graph Reasoning in Text Space. arXiv:2310.01089 [cs.CL] https://arxiv.org/abs/2310.01089 [202] Penghao Zhao, Hailin Zhang, Qinhan Yu, Zhengren Wang, Yunteng Geng, Fangcheng Fu, Ling Yang, Wentao\nZhang, Jie Jiang, and Bin Cui. 2024.\nRetrieval-Augmented Generation for AI-Generated Content: A Survey.",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Knowledge Graphs",
+      "Retrieval Methods",
+      "Graph Neural Networks"
+    ]
+  }
+}

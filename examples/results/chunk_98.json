@@ -1,0 +1,12 @@
+{
+  "chunk": "academic exploration, including predicting potential collaborators for an author, identifying trends within a specific field, etc.\n9.2.4\nLiterature. Similar to academic research, a knowledge graph can be constructed in the realm of literature, with nodes representing books, authors, publishers, and series, and edges labeled “written-by”, “published-in”, and “book-series”. GraphRAG can be utilized to enhance realistic applications like smart libraries.\n9.2.5\nLegal. In legal contexts, extensive citation connections exist between cases and judicial opinions, as judges frequently reference previous opinions when making new decisions. This naturally creates a structured graph where nodes represent opinions, opinion clusters, dockets, and courts, and edges encompass relationships such as “opinion-citation”, “opinion-cluster”, “clusterdocket”, and “docket-court”. The application of GraphRAG in legal scenarios could aid lawyers and legal researchers in various tasks such as case analysis and legal consultation.\n9.2.6\nOthers. In addition to the above applications, GraphRAG is also applied to other real-world scenarios such as intelligence report generation [139], patent phrase similarity detection [133] and",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Knowledge Graphs",
+      "Natural Language Processing"
+    ]
+  }
+}

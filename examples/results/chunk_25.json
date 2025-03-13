@@ -1,0 +1,13 @@
+{
+  "chunk": "Therefore, in this survey, we decompose the entire process of GraphRAG into three main stages:\nGraph-Based Indexing, Graph-Guided Retrieval, and Graph-Enhanced Generation. The overall workflow of GraphRAG is illustrated in Figure 2 and detailed introductions of each stage are as follows.\nGraph-Based Indexing (G-Indexing). Graph-Based Indexing constitutes the initial phase of\nGraphRAG, aimed at identifying or constructing a graph database G that aligns with downstream tasks and establishing indices on it. The graph database can originate from public knowledge graphs [4, 10, 100, 142, 150, 163], graph data [123], or be constructed based on proprietary data sources such as textual [32, 51, 89, 172] or other forms of data [183]. The indexing process typically includes mapping node and edge properties, establishing pointers between connected nodes, and organizing data to support fast traversal and retrieval operations. Indexing determines the granularity of the subsequent retrieval stage, playing a crucial role in enhancing query efficiency.",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Graph Neural Networks",
+      "Knowledge Graphs",
+      "Retrieval Methods"
+    ]
+  }
+}

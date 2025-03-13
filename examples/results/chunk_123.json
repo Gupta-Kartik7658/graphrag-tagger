@@ -1,0 +1,12 @@
+{
+  "chunk": "Graph Retrieval-Augmented Generation: A Survey 111:33 [34] Wenqi Fan, Yujuan Ding, Liangbo Ning, Shijie Wang, Hengyun Li, Dawei Yin, Tat-Seng Chua, and Qing Li. 2024. A\nSurvey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models. arXiv:2405.06211 [cs.CL] https://arxiv.org/abs/2405.06211 [35] Wenqi Fan, Shijie Wang, Jiani Huang, Zhikai Chen, Yu Song, Wenzhuo Tang, Haitao Mao, Hui Liu, Xiaorui Liu, Dawei\nYin, and Qing Li. 2024. Graph Machine Learning in the Era of Large Language Models (LLMs). arXiv:2404.14928 [cs.LG] https://arxiv.org/abs/2404.14928 [36] Haishuo Fang, Xiaodan Zhu, and Iryna Gurevych. 2024. DARA: Decomposition-Alignment-Reasoning Autonomous",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Graph Neural Networks",
+      "Retrieval Methods"
+    ]
+  }
+}

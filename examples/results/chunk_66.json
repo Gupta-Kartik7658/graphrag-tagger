@@ -1,0 +1,13 @@
+{
+  "chunk": "fashion, ensuring detailed attention to both structural and textual data.\nIn these methods, prompt tuning [88, 91, 105, 106] is a typical approach, where GNNs are commonly employed to encode the retrieved graph data. The encoded graph data is subsequently pre-pended as a prefix to the input text embeddings of an LM. The GNN is then optimized through downstream tasks to produce enhanced encodings of the graph data [44, 55, 58, 197].\n(2) Parallel Paradigm. On the other hand, the parallel approach operates by concurrently utilizing the capabilities of both the GNN and the LLM. In this setup, both models receive the initial inputs simultaneously and work in tandem to process different facets of the same data. The outputs are then merged, often through another model or a set of rules, to produce a unified response that integrates insights from both the graphical structure and the textual content.\nIn the parallel paradigm, a typical approach involves separately encoding inputs using both\nGNNs and LMs, followed by integrating these two representations, or directly integrating their",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Graph Neural Networks",
+      "Natural Language Processing",
+      "Training Techniques"
+    ]
+  }
+}

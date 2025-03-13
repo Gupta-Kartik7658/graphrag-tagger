@@ -1,0 +1,13 @@
+{
+  "chunk": "surveys of LLMs on Graphs.\n2.3\nKBQA\nKBQA is a significant task in natural language processing, aiming to respond to user queries based on external knowledge bases [41, 85, 86, 188], thereby achieving goals such as fact verification, passage retrieval enhancement, and text understanding. Previous surveys typically categorize existing\nKBQA approaches into two main types: Information Retrieval (IR)-based methods and Semantic\nParsing (SP)-based methods. Specifically, IR-based methods [69, 70, 112, 113, 154, 167, 182, 196] retrieve information related to the query from the knowledge graph (KG) and use it to enhance the generation process. While SP-based methods [16, 19, 36, 48, 153, 191] generate a logical form (LF) for each query and execute it against knowledge bases to obtain the answer.\nGraphRAG and KBQA are closely related, with IR-based KBQA methods representing a subset of\nGraphRAG approaches focused on downstream applications. In this work, we extend the discussion",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Knowledge Graphs",
+      "Retrieval Methods"
+    ]
+  }
+}

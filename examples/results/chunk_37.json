@@ -1,0 +1,13 @@
+{
+  "chunk": "and effective enhancement techniques. The general architectures of Graph-Guided Retrieval are depicted in Figure 4.\n6.1\nRetriever\nIn GraphRAG, various retrievers possess unique strengths for addressing different aspects of retrieval tasks. We categorize retrievers into three types based on their underlying models: Nonparametric Retriever, LM-based Retriever, and GNN-based Retriever. It is important to note that models used in pre-processing steps, such as query encoding and entity linking, are not considered here, as these models vary across different methods and are not the primary focus of this paper.\n6.1.1\nNon-parametric Retriever. Non-parametric retrievers, based on heuristic rules or traditional graph search algorithms, do not rely on deep-learning models, thereby achieving high retrieval efficiency. For instance,\nYasunaga et al. [189] and Taunk et al. [158] retrieve 𝑘-hop paths containing the topic entities of each question-choice pair. G-Retriever [55] enhances the conven-",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Retrieval Methods",
+      "Graph Neural Networks",
+      "Natural Language Processing"
+    ]
+  }
+}

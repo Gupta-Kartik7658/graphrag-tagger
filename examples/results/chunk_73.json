@@ -1,0 +1,12 @@
+{
+  "chunk": "Jin et al. [75] , Jiang et al. [67] , Jiang et al. [69] , Wang et al. [170] and Sun et al. [155] integrate information from different granularities within the graph into prompts through natural language in the form of dialogue.\n(3) Code-Like Forms. Considering that natural language descriptions and other 1-D sequences are inherently inadequate for directly representing the 2-D structure of graph data, and given the robust code comprehension capabilities of LMs, many researchers [49] explore using code-like formats to represent graph structures. For example, Guo et al. [49] examine the use of Graph Modeling\nLanguage (GML) [56] and Graph Markup Language (GraphML) [141] for representing graphs.\nThese standardized languages are specifically designed for graph data, providing comprehensive descriptions that encompass nodes, edges, and their interrelationships.\n(4) Syntax Tree. Compared to direct flattening of graphs, some research [201] propose transforming graphs into structures akin to syntax trees. Syntax trees possess a hierarchical structure and,",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "paragraph",
+    "is_sufficient": true,
+    "topics": [
+      "Natural Language Processing",
+      "Graph Neural Networks"
+    ]
+  }
+}

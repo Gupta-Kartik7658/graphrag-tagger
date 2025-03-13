@@ -1,0 +1,13 @@
+{
+  "chunk": "Knowledge Graph Reasoning. In The Twelfth International Conference on Learning Representations.\n[43] Hanning Gao, Lingfei Wu, Po Hu, Zhihua Wei, Fangli Xu, and Bo Long. 2022. Graph-augmented Learning to Rank for Querying Large-scale Knowledge Graph. In Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the\nAssociation for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing,\nAACL/IJCNLP 2022 - Volume 1: Long Papers, Online Only, November 20-23, 2022. 82–92.\n[44] Yifu Gao, Linbo Qiao, Zhigang Kan, Zhihua Wen, Yongquan He, and Dongsheng Li. 2024. Two-stage Generative\nQuestion Answering on Temporal Knowledge Graph Using Large Language Models.\narXiv:2402.16568 [cs.CL] https://arxiv.org/abs/2402.16568",
+  "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
+  "classification": {
+    "content_type": "citation",
+    "is_sufficient": true,
+    "topics": [
+      "Topic 2",
+      "Topic 5",
+      "Natural Language Processing"
+    ]
+  }
+}
