@@ -5,8 +5,9 @@
     "content_type": "paragraph",
     "is_sufficient": true,
     "topics": [
-      "Natural Language Processing",
-      "Retrieval Methods"
+      "Topic 1",
+      "Topic 6",
+      "Topic 11"
     ]
   }
 }

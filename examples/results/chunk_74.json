@@ -5,8 +5,8 @@
     "content_type": "paragraph",
     "is_sufficient": true,
     "topics": [
-      "Topic 2",
-      "Graph Neural Networks"
+      "Topic 1",
+      "Topic 2"
     ]
   }
 }

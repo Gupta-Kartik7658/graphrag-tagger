@@ -2,12 +2,12 @@
   "chunk": "Answering with Relation-Aware Subgraph Retrieval and Reasoning Network. In International Joint Conference on\nNeural Networks, IJCNN 2023, Gold Coast, Australia, June 18-23, 2023. 1–8.\n[111] Haoran Luo, Haihong E, Zichen Tang, Shiyao Peng, Yikai Guo, Wentai Zhang, Chenghao Ma, Guanting Dong,\nMeina Song, Wei Lin, Yifan Zhu, and Luu Anh Tuan. 2024. ChatKBQA: A Generate-then-Retrieve Framework for Knowledge Base Question Answering with Fine-tuned Large Language Models.\narXiv:2310.08975 [cs.CL] https://arxiv.org/abs/2310.08975 [112] Linhao Luo, Yuan-Fang Li, Gholamreza Haffari, and Shirui Pan. 2024. Reasoning on Graphs: Faithful and Interpretable\nLarge Language Model Reasoning. arXiv:2310.01061 [cs.CL] https://arxiv.org/abs/2310.01061",
   "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
   "classification": {
-    "content_type": "citation",
+    "content_type": "paragraph",
     "is_sufficient": true,
     "topics": [
-      "Conference Papers 2024",
-      "Natural Language Processing",
-      "Retrieval Methods"
+      "Topic 2",
+      "Topic 3",
+      "Topic 4"
     ]
   }
 }

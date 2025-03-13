@@ -5,9 +5,8 @@
     "content_type": "paragraph",
     "is_sufficient": true,
     "topics": [
-      "Natural Language Processing",
-      "Graph Neural Networks",
-      "Biomedical"
+      "Topic 1",
+      "Topic 9"
     ]
   }
 }

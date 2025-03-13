@@ -5,9 +5,9 @@
     "content_type": "paragraph",
     "is_sufficient": true,
     "topics": [
-      "Graph Neural Networks",
-      "Natural Language Processing",
-      "Training Techniques"
+      "Topic 1",
+      "Topic 2",
+      "Topic 5"
     ]
   }
 }

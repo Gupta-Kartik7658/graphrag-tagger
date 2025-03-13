@@ -5,9 +5,9 @@
     "content_type": "paragraph",
     "is_sufficient": true,
     "topics": [
-      "Retrieval Methods",
-      "Graph Neural Networks",
-      "Knowledge Graphs"
+      "Topic 1",
+      "Topic 3",
+      "Topic 6"
     ]
   }
 }

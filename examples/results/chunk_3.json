@@ -5,8 +5,9 @@
     "content_type": "citation",
     "is_sufficient": true,
     "topics": [
-      "Graph Neural Networks",
-      "Knowledge Graphs"
+      "Topic 1",
+      "Topic 4",
+      "Topic 9"
     ]
   }
 }

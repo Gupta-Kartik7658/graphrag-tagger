@@ -1,15 +1,16 @@
 {
   "topics": [
     "Graph Neural Networks",
-    "Conference Papers 2024",
-    "Natural Language Processing",
-    "Retrieval Methods",
+    "Conference Publications",
+    "Retrieval Techniques",
     "Knowledge Graphs",
-    "Training Techniques",
+    "Training Methods",
     "Query Retrieval",
     "Linguistics Proceedings",
-    "Information Systems",
-    "Semantic Web"
+    "Node Entity Retrieval",
+    "RAG Systems",
+    "Semantic Web",
+    "Natural Language Processing"
   ],
   "lda_topic": [
     "graph the gnns to data lms can into representations of",
