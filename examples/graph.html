@@ -1,0 +1,259 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #222222;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+             #loadingBar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width: 100%;
+                 height: 600px;
+                 background-color:rgba(200,200,200,0.8);
+                 -webkit-transition: all 0.5s ease;
+                 -moz-transition: all 0.5s ease;
+                 -ms-transition: all 0.5s ease;
+                 -o-transition: all 0.5s ease;
+                 transition: all 0.5s ease;
+                 opacity:1;
+             }
+
+             #bar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width:20px;
+                 height:20px;
+                 margin:auto auto auto auto;
+                 border-radius:11px;
+                 border:2px solid rgba(30,30,30,0.05);
+                 background: rgb(0, 173, 246); /* Old browsers */
+                 box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+             }
+
+             #border {
+                 position:absolute;
+                 top:10px;
+                 left:10px;
+                 width:500px;
+                 height:23px;
+                 margin:auto auto auto auto;
+                 box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+                 border-radius:10px;
+             }
+
+             #text {
+                 position:absolute;
+                 top:8px;
+                 left:530px;
+                 width:30px;
+                 height:50px;
+                 margin:auto auto auto auto;
+                 font-size:22px;
+                 color: #000000;
+             }
+
+             div.outerBorder {
+                 position:relative;
+                 top:400px;
+                 width:600px;
+                 height:44px;
+                 margin:auto auto auto auto;
+                 border:8px solid rgba(0,0,0,0.1);
+                 background: rgb(252,252,252); /* Old browsers */
+                 background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+                 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+                 background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+                 background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+                 background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+                 background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+                 border-radius:72px;
+                 box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+             }
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+            <div id="loadingBar">
+              <div class="outerBorder">
+                <div id="text">0%</div>
+                <div id="border">
+                  <div id="bar"></div>
+                </div>
+              </div>
+            </div>
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "red", "font": {"color": "white"}, "id": 0, "label": "Chunk 0", "shape": "dot", "title": ["RAG Systems", "Knowledge Graphs", "Natural Language Processing"]}, {"color": "red", "font": {"color": "white"}, "id": 1, "label": "Chunk 1", "shape": "dot", "title": ["Retrieval Techniques", "Training Methods", "RAG Systems"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 107, "label": "Chunk 107", "shape": "dot", "title": ["Retrieval Techniques", "Training Methods", "RAG Systems"]}, {"color": "red", "font": {"color": "white"}, "id": 2, "label": "Chunk 2", "shape": "dot", "title": ["RAG Systems", "Graph Neural Networks", "Knowledge Graphs"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 25, "label": "Chunk 25", "shape": "dot", "title": ["RAG Systems", "Graph Neural Networks", "Knowledge Graphs"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 29, "label": "Chunk 29", "shape": "dot", "title": ["RAG Systems", "Graph Neural Networks", "Knowledge Graphs"]}, {"color": "red", "font": {"color": "white"}, "id": 3, "label": "Chunk 3", "shape": "dot", "title": ["Knowledge Graphs", "RAG Systems", "Natural Language Processing"]}, {"color": "red", "font": {"color": "white"}, "id": 4, "label": "Chunk 4", "shape": "dot", "title": ["Retrieval Techniques", "RAG Systems"]}, {"color": "red", "font": {"color": "white"}, "id": 5, "label": "Chunk 5", "shape": "dot", "title": ["Knowledge Graphs", "RAG Systems", "Natural Language Processing"]}, {"color": "red", "font": {"color": "white"}, "id": 6, "label": "Chunk 6", "shape": "dot", "title": ["Retrieval Techniques", "Knowledge Graphs", "RAG Systems"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 65, "label": "Chunk 65", "shape": "dot", "title": ["Retrieval Techniques", "Knowledge Graphs", "RAG Systems"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 34, "label": "Chunk 34", "shape": "dot", "title": ["Retrieval Techniques", "Knowledge Graphs", "RAG Systems"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 97, "label": "Chunk 97", "shape": "dot", "title": ["Retrieval Techniques", "Knowledge Graphs", "RAG Systems"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 69, "label": "Chunk 69", "shape": "dot", "title": ["Retrieval Techniques", "Knowledge Graphs", "RAG Systems"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 40, "label": "Chunk 40", "shape": "dot", "title": ["Retrieval Techniques", "Knowledge Graphs", "RAG Systems"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 76, "label": "Chunk 76", "shape": "dot", "title": ["Retrieval Techniques", "Knowledge Graphs", "RAG Systems"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 13, "label": "Chunk 13", "shape": "dot", "title": ["Retrieval Techniques", "Knowledge Graphs", "RAG Systems"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 15, "label": "Chunk 15", "shape": "dot", "title": ["Retrieval Techniques", "Knowledge Graphs", "RAG Systems"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 50, "label": "Chunk 50", "shape": "dot", "title": ["Retrieval Techniques", "Knowledge Graphs", "RAG Systems"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 115, "label": "Chunk 115", "shape": "dot", "title": ["Retrieval Techniques", "Knowledge Graphs", "RAG Systems"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 30, "label": "Chunk 30", "shape": "dot", "title": ["Retrieval Techniques", "Knowledge Graphs", "RAG Systems"]}, {"color": "red", "font": {"color": "white"}, "id": 7, "label": "Chunk 7", "shape": "dot", "title": ["Knowledge Graphs", "RAG Systems", "Natural Language Processing"]}, {"color": "red", "font": {"color": "white"}, "id": 8, "label": "Chunk 8", "shape": "dot", "title": ["Knowledge Graphs", "Node Entity Retrieval"]}, {"color": "red", "font": {"color": "white"}, "id": 9, "label": "Chunk 9", "shape": "dot", "title": ["Graph Neural Networks", "RAG Systems"]}, {"color": "red", "font": {"color": "white"}, "id": 10, "label": "Chunk 10", "shape": "dot", "title": ["RAG Systems", "Natural Language Processing"]}, {"color": "red", "font": {"color": "white"}, "id": 11, "label": "Chunk 11", "shape": "dot", "title": ["RAG Systems", "Natural Language Processing"]}, {"color": "red", "font": {"color": "white"}, "id": 12, "label": "Chunk 12", "shape": "dot", "title": ["Graph Neural Networks", "RAG Systems", "Training Methods"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 14, "label": "Chunk 14", "shape": "dot", "title": ["Retrieval Techniques", "Knowledge Graphs", "RAG Systems"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 16, "label": "Chunk 16", "shape": "dot", "title": ["Retrieval Techniques", "Knowledge Graphs", "RAG Systems"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 17, "label": "Chunk 17", "shape": "dot", "title": ["Conference Publications", "Knowledge Graphs", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 18, "label": "Chunk 18", "shape": "dot", "title": ["Conference Publications", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 20, "label": "Chunk 20", "shape": "dot", "title": ["Conference Publications", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 96, "label": "Chunk 96", "shape": "dot", "title": ["Knowledge Graphs", "Conference Publications"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 91, "label": "Chunk 91", "shape": "dot", "title": ["Knowledge Graphs", "Conference Publications"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 78, "label": "Chunk 78", "shape": "dot", "title": ["Knowledge Graphs", "Conference Publications"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 79, "label": "Chunk 79", "shape": "dot", "title": ["Knowledge Graphs", "Conference Publications"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 82, "label": "Chunk 82", "shape": "dot", "title": ["Knowledge Graphs", "Conference Publications"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 19, "label": "Chunk 19", "shape": "dot", "title": ["Knowledge Graphs", "Conference Publications"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 89, "label": "Chunk 89", "shape": "dot", "title": ["Knowledge Graphs", "Conference Publications"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 90, "label": "Chunk 90", "shape": "dot", "title": ["Knowledge Graphs", "Conference Publications"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 27, "label": "Chunk 27", "shape": "dot", "title": ["Knowledge Graphs", "Conference Publications"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 21, "label": "Chunk 21", "shape": "dot", "title": ["Natural Language Processing", "Training Methods"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 22, "label": "Chunk 22", "shape": "dot", "title": ["Knowledge Graphs", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 23, "label": "Chunk 23", "shape": "dot", "title": ["Linguistics Proceedings", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 24, "label": "Chunk 24", "shape": "dot", "title": ["Knowledge Graphs", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 26, "label": "Chunk 26", "shape": "dot", "title": ["Conference Publications", "Retrieval Techniques", "Knowledge Graphs"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 72, "label": "Chunk 72", "shape": "dot", "title": ["Retrieval Techniques", "Knowledge Graphs", "RAG Systems"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 28, "label": "Chunk 28", "shape": "dot", "title": ["Retrieval Techniques", "Knowledge Graphs", "RAG Systems"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 95, "label": "Chunk 95", "shape": "dot", "title": ["Retrieval Techniques", "Knowledge Graphs", "RAG Systems"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 31, "label": "Chunk 31", "shape": "dot", "title": ["Conference Publications", "Knowledge Graphs"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 32, "label": "Chunk 32", "shape": "dot", "title": ["Conference Publications", "Knowledge Graphs", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 33, "label": "Chunk 33", "shape": "dot", "title": ["Query Retrieval", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 35, "label": "Chunk 35", "shape": "dot", "title": ["Conference Publications", "Retrieval Techniques", "RAG Systems"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 36, "label": "Chunk 36", "shape": "dot", "title": ["Knowledge Graphs", "RAG Systems", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 37, "label": "Chunk 37", "shape": "dot", "title": ["Knowledge Graphs", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 38, "label": "Chunk 38", "shape": "dot", "title": ["Conference Publications", "Knowledge Graphs", "Query Retrieval"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 39, "label": "Chunk 39", "shape": "dot", "title": ["RAG Systems", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 41, "label": "Chunk 41", "shape": "dot", "title": ["Knowledge Graphs", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 42, "label": "Chunk 42", "shape": "dot", "title": ["Conference Publications", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 43, "label": "Chunk 43", "shape": "dot", "title": ["Retrieval Techniques", "RAG Systems", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 44, "label": "Chunk 44", "shape": "dot", "title": ["Conference Publications", "Knowledge Graphs", "Training Methods"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 45, "label": "Chunk 45", "shape": "dot", "title": ["RAG Systems", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 46, "label": "Chunk 46", "shape": "dot", "title": ["Retrieval Techniques", "RAG Systems", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 73, "label": "Chunk 73", "shape": "dot", "title": ["Conference Publications", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 53, "label": "Chunk 53", "shape": "dot", "title": ["Conference Publications", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 47, "label": "Chunk 47", "shape": "dot", "title": ["Conference Publications", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 48, "label": "Chunk 48", "shape": "dot", "title": ["Conference Publications", "Knowledge Graphs"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 49, "label": "Chunk 49", "shape": "dot", "title": ["Conference Publications", "Query Retrieval"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 51, "label": "Chunk 51", "shape": "dot", "title": ["Conference Publications", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 59, "label": "Chunk 59", "shape": "dot", "title": ["Conference Publications", "Knowledge Graphs", "Retrieval Techniques"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 52, "label": "Chunk 52", "shape": "dot", "title": ["Conference Publications", "Knowledge Graphs", "Retrieval Techniques"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 86, "label": "Chunk 86", "shape": "dot", "title": ["Conference Publications", "Knowledge Graphs"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 92, "label": "Chunk 92", "shape": "dot", "title": ["Conference Publications", "Knowledge Graphs"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 54, "label": "Chunk 54", "shape": "dot", "title": ["Conference Publications", "Knowledge Graphs"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 55, "label": "Chunk 55", "shape": "dot", "title": ["Graph Neural Networks", "Conference Publications"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 56, "label": "Chunk 56", "shape": "dot", "title": ["Retrieval Techniques", "RAG Systems", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 57, "label": "Chunk 57", "shape": "dot", "title": ["Natural Language Processing", "Linguistics Proceedings"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 58, "label": "Chunk 58", "shape": "dot", "title": ["Conference Publications", "Retrieval Techniques", "Knowledge Graphs"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 60, "label": "Chunk 60", "shape": "dot", "title": ["Conference Publications", "Knowledge Graphs"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 61, "label": "Chunk 61", "shape": "dot", "title": ["Natural Language Processing", "Query Retrieval"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 71, "label": "Chunk 71", "shape": "dot", "title": ["Natural Language Processing", "Query Retrieval"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 110, "label": "Chunk 110", "shape": "dot", "title": ["Conference Publications", "Knowledge Graphs", "Training Methods"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 67, "label": "Chunk 67", "shape": "dot", "title": ["Conference Publications", "Knowledge Graphs", "Training Methods"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 68, "label": "Chunk 68", "shape": "dot", "title": ["Conference Publications", "Knowledge Graphs", "Training Methods"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 62, "label": "Chunk 62", "shape": "dot", "title": ["Conference Publications", "Knowledge Graphs", "Training Methods"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 63, "label": "Chunk 63", "shape": "dot", "title": ["Conference Publications", "Retrieval Techniques", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 64, "label": "Chunk 64", "shape": "dot", "title": ["Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 80, "label": "Chunk 80", "shape": "dot", "title": ["Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 66, "label": "Chunk 66", "shape": "dot", "title": ["Graph Neural Networks", "Knowledge Graphs", "Query Retrieval"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 70, "label": "Chunk 70", "shape": "dot", "title": ["Conference Publications", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 74, "label": "Chunk 74", "shape": "dot", "title": ["Graph Neural Networks", "Knowledge Graphs"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 75, "label": "Chunk 75", "shape": "dot", "title": ["Graph Neural Networks", "RAG Systems"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 106, "label": "Chunk 106", "shape": "dot", "title": ["Graph Neural Networks", "Query Retrieval"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 99, "label": "Chunk 99", "shape": "dot", "title": ["Graph Neural Networks", "Query Retrieval"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 77, "label": "Chunk 77", "shape": "dot", "title": ["Graph Neural Networks", "Query Retrieval"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 81, "label": "Chunk 81", "shape": "dot", "title": ["Linguistics Proceedings", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 83, "label": "Chunk 83", "shape": "dot", "title": ["Retrieval Techniques", "Node Entity Retrieval"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 84, "label": "Chunk 84", "shape": "dot", "title": ["Conference Publications", "Retrieval Techniques", "Knowledge Graphs"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 85, "label": "Chunk 85", "shape": "dot", "title": ["Knowledge Graphs", "RAG Systems"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 87, "label": "Chunk 87", "shape": "dot", "title": ["Conference Publications", "Retrieval Techniques", "Knowledge Graphs"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 88, "label": "Chunk 88", "shape": "dot", "title": ["Graph Neural Networks", "Conference Publications", "Query Retrieval"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 93, "label": "Chunk 93", "shape": "dot", "title": ["Conference Publications", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 94, "label": "Chunk 94", "shape": "dot", "title": ["RAG Systems", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 98, "label": "Chunk 98", "shape": "dot", "title": ["Conference Publications", "Training Methods", "Knowledge Graphs"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 100, "label": "Chunk 100", "shape": "dot", "title": ["Knowledge Graphs", "Natural Language Processing", "Query Retrieval"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 101, "label": "Chunk 101", "shape": "dot", "title": ["Conference Publications", "Knowledge Graphs", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 105, "label": "Chunk 105", "shape": "dot", "title": ["Conference Publications", "Knowledge Graphs", "Query Retrieval"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 102, "label": "Chunk 102", "shape": "dot", "title": ["Conference Publications", "Knowledge Graphs", "Query Retrieval"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 104, "label": "Chunk 104", "shape": "dot", "title": ["Conference Publications", "Semantic Web", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 103, "label": "Chunk 103", "shape": "dot", "title": ["Conference Publications", "Semantic Web", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 108, "label": "Chunk 108", "shape": "dot", "title": ["Linguistics Proceedings", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 109, "label": "Chunk 109", "shape": "dot", "title": ["Conference Publications", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 111, "label": "Chunk 111", "shape": "dot", "title": ["Conference Publications", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 112, "label": "Chunk 112", "shape": "dot", "title": ["Conference Publications", "Retrieval Techniques", "RAG Systems"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 113, "label": "Chunk 113", "shape": "dot", "title": ["Conference Publications", "Knowledge Graphs"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 114, "label": "Chunk 114", "shape": "dot", "title": ["Retrieval Techniques", "Knowledge Graphs", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 116, "label": "Chunk 116", "shape": "dot", "title": ["Conference Publications", "Query Retrieval", "Natural Language Processing"]}, {"color": "lightblue", "font": {"color": "white"}, "id": 117, "label": "Chunk 117", "shape": "dot", "title": ["RAG Systems", "Graph Neural Networks", "Knowledge Graphs"]}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": 1, "to": 107}, {"arrows": "to", "from": 2, "to": 25}, {"arrows": "to", "from": 2, "to": 29}, {"arrows": "to", "from": 6, "to": 65}, {"arrows": "to", "from": 6, "to": 34}, {"arrows": "to", "from": 6, "to": 97}, {"arrows": "to", "from": 6, "to": 69}, {"arrows": "to", "from": 6, "to": 40}, {"arrows": "to", "from": 6, "to": 76}, {"arrows": "to", "from": 6, "to": 13}, {"arrows": "to", "from": 6, "to": 15}, {"arrows": "to", "from": 6, "to": 50}, {"arrows": "to", "from": 6, "to": 115}, {"arrows": "to", "from": 6, "to": 30}, {"arrows": "to", "from": 13, "to": 14}, {"arrows": "to", "from": 14, "to": 16}, {"arrows": "to", "from": 15, "to": 17}, {"arrows": "to", "from": 16, "to": 18}, {"arrows": "to", "from": 16, "to": 20}, {"arrows": "to", "from": 17, "to": 96}, {"arrows": "to", "from": 17, "to": 91}, {"arrows": "to", "from": 17, "to": 78}, {"arrows": "to", "from": 17, "to": 79}, {"arrows": "to", "from": 17, "to": 82}, {"arrows": "to", "from": 17, "to": 19}, {"arrows": "to", "from": 17, "to": 89}, {"arrows": "to", "from": 17, "to": 90}, {"arrows": "to", "from": 17, "to": 27}, {"arrows": "to", "from": 18, "to": 21}, {"arrows": "to", "from": 19, "to": 22}, {"arrows": "to", "from": 20, "to": 23}, {"arrows": "to", "from": 21, "to": 24}, {"arrows": "to", "from": 22, "to": 26}, {"arrows": "to", "from": 23, "to": 72}, {"arrows": "to", "from": 23, "to": 28}, {"arrows": "to", "from": 23, "to": 95}, {"arrows": "to", "from": 24, "to": 31}, {"arrows": "to", "from": 25, "to": 32}, {"arrows": "to", "from": 26, "to": 33}, {"arrows": "to", "from": 27, "to": 35}, {"arrows": "to", "from": 28, "to": 36}, {"arrows": "to", "from": 29, "to": 37}, {"arrows": "to", "from": 30, "to": 38}, {"arrows": "to", "from": 31, "to": 39}, {"arrows": "to", "from": 32, "to": 41}, {"arrows": "to", "from": 33, "to": 42}, {"arrows": "to", "from": 34, "to": 43}, {"arrows": "to", "from": 35, "to": 44}, {"arrows": "to", "from": 36, "to": 45}, {"arrows": "to", "from": 37, "to": 46}, {"arrows": "to", "from": 38, "to": 73}, {"arrows": "to", "from": 38, "to": 53}, {"arrows": "to", "from": 38, "to": 47}, {"arrows": "to", "from": 39, "to": 48}, {"arrows": "to", "from": 40, "to": 49}, {"arrows": "to", "from": 41, "to": 51}, {"arrows": "to", "from": 42, "to": 59}, {"arrows": "to", "from": 42, "to": 52}, {"arrows": "to", "from": 43, "to": 86}, {"arrows": "to", "from": 43, "to": 92}, {"arrows": "to", "from": 43, "to": 54}, {"arrows": "to", "from": 44, "to": 55}, {"arrows": "to", "from": 45, "to": 56}, {"arrows": "to", "from": 46, "to": 57}, {"arrows": "to", "from": 47, "to": 58}, {"arrows": "to", "from": 48, "to": 60}, {"arrows": "to", "from": 49, "to": 61}, {"arrows": "to", "from": 49, "to": 71}, {"arrows": "to", "from": 50, "to": 110}, {"arrows": "to", "from": 50, "to": 67}, {"arrows": "to", "from": 50, "to": 68}, {"arrows": "to", "from": 50, "to": 62}, {"arrows": "to", "from": 51, "to": 63}, {"arrows": "to", "from": 52, "to": 64}, {"arrows": "to", "from": 52, "to": 80}, {"arrows": "to", "from": 53, "to": 66}, {"arrows": "to", "from": 54, "to": 70}, {"arrows": "to", "from": 55, "to": 74}, {"arrows": "to", "from": 56, "to": 75}, {"arrows": "to", "from": 57, "to": 106}, {"arrows": "to", "from": 57, "to": 99}, {"arrows": "to", "from": 57, "to": 77}, {"arrows": "to", "from": 58, "to": 81}, {"arrows": "to", "from": 59, "to": 83}, {"arrows": "to", "from": 60, "to": 84}, {"arrows": "to", "from": 61, "to": 85}, {"arrows": "to", "from": 62, "to": 87}, {"arrows": "to", "from": 63, "to": 88}, {"arrows": "to", "from": 64, "to": 93}, {"arrows": "to", "from": 65, "to": 94}, {"arrows": "to", "from": 66, "to": 98}, {"arrows": "to", "from": 67, "to": 100}, {"arrows": "to", "from": 68, "to": 101}, {"arrows": "to", "from": 69, "to": 105}, {"arrows": "to", "from": 69, "to": 102}, {"arrows": "to", "from": 70, "to": 104}, {"arrows": "to", "from": 70, "to": 103}, {"arrows": "to", "from": 71, "to": 108}, {"arrows": "to", "from": 72, "to": 109}, {"arrows": "to", "from": 73, "to": 111}, {"arrows": "to", "from": 74, "to": 112}, {"arrows": "to", "from": 75, "to": 113}, {"arrows": "to", "from": 76, "to": 114}, {"arrows": "to", "from": 77, "to": 116}, {"arrows": "to", "from": 78, "to": 117}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.01,
+            "damping": 0.4,
+            "gravitationalConstant": -50,
+            "springConstant": 0.08,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+                      network.on("stabilizationProgress", function(params) {
+                          document.getElementById('loadingBar').removeAttribute("style");
+                          var maxWidth = 496;
+                          var minWidth = 20;
+                          var widthFactor = params.iterations/params.total;
+                          var width = Math.max(minWidth,maxWidth * widthFactor);
+                          document.getElementById('bar').style.width = width + 'px';
+                          document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+                      });
+                      network.once("stabilizationIterationsDone", function() {
+                          document.getElementById('text').innerHTML = '100%';
+                          document.getElementById('bar').style.width = '496px';
+                          document.getElementById('loadingBar').style.opacity = 0;
+                          // really clean the dom element
+                          setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+                      });
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
