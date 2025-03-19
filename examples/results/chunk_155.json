@@ -2,10 +2,9 @@
   "chunk": "Graph Retrieval-Augmented Generation: A Survey 111:37\nLearning.\n[116] Qiheng Mao, Zemin Liu, Chenghao Liu, Zhuo Li, and Jianling Sun. 2024. Advancing Graph Representation Learning with Large Language Models: A Comprehensive Survey of Techniques. arXiv:2402.05952 [cs.LG] https://arxiv.org/ abs/2402.05952 [117] Shengyu Mao, Yong Jiang, Boli Chen, Xiao Li, Peng Wang, Xinyu Wang, Pengjun Xie, Fei Huang, Huajun Chen, and Ningyu Zhang. 2024. RaFe: Ranking Feedback Improves Query Rewriting for RAG. arXiv:2405.14431 [cs.CL] https://arxiv.org/abs/2405.14431 [118] Costas Mavromatis and George Karypis. 2022. ReaRev: Adaptive Reasoning for Question Answering over Knowledge\nGraphs. In Findings of the Association for Computational Linguistics: EMNLP 2022, Abu Dhabi, United Arab Emirates,",
   "source_file": "Sample PDf\\Graph Retrieval-Augmented Generation.pdf",
   "classification": {
-    "content_type": "citation",
+    "content_type": "paragraph",
     "is_sufficient": true,
     "topics": [
-      "Topic 2",
       "Topic 3",
       "Topic 4"
     ]

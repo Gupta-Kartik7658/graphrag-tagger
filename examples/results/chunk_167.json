@@ -5,8 +5,9 @@
     "content_type": "citation",
     "is_sufficient": true,
     "topics": [
-      "Topic 2",
-      "Topic 4"
+      "Topic 4",
+      "Topic 10",
+      "Conference Proceedings 2020"
     ]
   }
 }

@@ -5,9 +5,9 @@
     "content_type": "paragraph",
     "is_sufficient": true,
     "topics": [
-      "Topic 2",
       "Topic 3",
-      "Topic 9"
+      "Topic 10",
+      "Topic 4"
     ]
   }
 }
