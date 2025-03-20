@@ -174,3 +174,6 @@ data
 .vscode
 
 notebook/example/results
+examples/results
+examples/graph_outputs
+examples/graph.html
