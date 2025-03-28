@@ -173,7 +173,8 @@ cython_debug/
 data
 .vscode
 
-notebook/example/results
-examples/results
-examples/graph_outputs
-examples/graph.html
+notebook/results
+notebook/graph_outputs
+notebook/lib
+notebook/graph.html
+
